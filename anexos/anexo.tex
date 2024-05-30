@@ -29,20 +29,78 @@
 	\end{tabular}
 	\caption{Matriz de consistencia. Fuente: Elaboración propia}
 	\label{1:table}
-
-	
-
-
 \end{table}
 
-	\begin{figure}[h]
-		\begin{center}
-			\includegraphics[width=0.8\textwidth]{images_repo/Matriz de consistencia.jpeg}
-			\caption{Matriz de valores y formulas. Fuente: Elaboración propia}
-			\label{1:fig}
-		\end{center}
-	\end{figure}
-
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{|p{4.5cm}|p{4.5cm}|p{6cm}| }
+        \toprule
+        \Centering \textbf{Hipótesis Específica} & \Centering \textbf{Indicadores} & \Centering \textbf{Fórmulas} \\
+        \midrule
+        {\Hone} & 
+        \begin{tabular}[t]{@{}p{4.3cm}@{}}
+            $*$Porcentaje de integración de APIs \\
+            $*$Calidad de datos\\
+	     $*$Tiempo de respuesta de la API\\
+	     $*$Porcentaje de consultas resueltas
+        \end{tabular} & 
+        \begin{tabular}[t]{@{}p{5.8cm}@{}}
+		$\frac{\text{Número de APIs integradas}}{\text{Total de APIs disponibles}} \times 100$\\\\
+            $\frac{\text{\tiny Cantidad de datos precisos y actualizados}}{\text{\tiny Total de datos utilizados}} \times 100$\\\\
+            $\frac{\text{Tiempo total de respuesta de la API}}{\text{Número total de consultas}}$\\\\
+		$\frac{\text{Consultas resueltas}}{\text{Total de consultas realizadas}} \times 100$
+        \end{tabular} \\
+        \midrule
+         {\Htwo}  & 
+        \begin{tabular}[t]{@{}p{4.3cm}@{}}
+            $*$Precisión del modelo de lenguaje natural \\
+            $*$Eficiencia del chatbot\\\\
+		$*$Tasa de reconocimiento de entidades médicas\\
+		$*$Cobertura de conocimiento médico
+        \end{tabular} & 
+        \begin{tabular}[t]{@{}p{5.8cm}@{}}
+            $\frac{\text{Número de respuestas correctas}}{\text{Total de respuestas generadas}} \times 100$\\\\
+            $\frac{\text{Número de consultas manejadas}}{\text{Tiempo total de prueba}}$\\\\
+            $\frac{\text{\tiny Número de entidades médicas correctamente identificadas}}{\text{\tiny Total de entidades médicas identificadas}} \times {\tiny 100}$\\
+		$\frac{\text{\tiny Número de temas médicos cubiertos correctamente}}{\text{\tiny Total de temas médicos probados}} \times 100$
+        \end{tabular} \\
+        \midrule
+        {\Hthree} & 
+        \begin{tabular}[t]{@{}p{4.3cm}@{}}
+            $*$Exactitud del conjunto de datos de entrenamiento \\\break
+            $*$Tasa de generalización del modelo\\
+		$*$Precisión de la validación cruzada\\
+		$*$Estabilidad del modelo
+        \end{tabular} & 
+        \begin{tabular}[t]{@{}p{5.8cm}@{}}
+            $\frac{\text{\tiny Número de pares de consulta-respuesta correctos}}{\text{\tiny Total de pares de consulta-respuesta}} \times 100$\\\\\\\break
+            $\frac{\text{\tiny Número de consultas generales respondidas correctamente}}{\text{\tiny Total de consultas generales}} \times {\tiny 100}$\\
+            $\frac{\text{\tiny Número de consultas validadas correctamente}}{\text{\tiny Total de consultas validadas}} \times 100$\\\\
+		$\frac{\text{\tiny Desviación estándar del rendimiento del modelo}}{\text{\tiny Media del rendimiento del modelo}} \times 100$
+        \end{tabular} \\
+        \midrule
+        {\Hfour} & 
+        \begin{tabular}[t]{@{}p{4.3cm}@{}}
+            $*$Reducción en tiempos de espera \\\\
+            $*$Aumento en la accesibilidad de servicios médicos\\
+	     $*$Mejora en la precisión del diagnóstico\\\\
+	     $*$Satisfacción del usuario
+        \end{tabular} & 
+        \begin{tabular}[t]{@{}p{5.8cm}@{}}
+		\tiny Antes= Tiempo promedio de espera antes de la implementación \break
+		\tiny Despues= Tiempo promedio de espera después de la implementación\\
+            $\frac{\text{\tiny Antes} - \text{\tiny Despues}}{\text{\tiny Antes}} \times 100$ \\\\
+		$\frac{\text{\tiny Número de consultas médicas atendidas por el chatbot}}{\text{\tiny Total de consultas médicas realizadas}} \times 100$\\\\
+		\tiny dChat=Precisión del diagnóstico del chatbot. \break
+		\tiny dHumano=Precisión del diagnóstico humano\\
+            $\frac{\text{\tiny dChat} - \text{\tiny dHumano}}{\text{\tiny dHumano}} \times 100$\\\\
+		$\frac{\text{Número de usuarios satisfechos}}{\text{Total de usuarios encuestados}} \times 100$
+        \end{tabular} \\
+        \bottomrule
+    \end{tabular}
+ \caption{Tabla de Hipótesis Específicas, Indicadores y Fórmulas}
+    \label{tab:hipotesis}
+\end{table}
 
 
 \chapter{Anexo II: Arbol del Problema}
