@@ -1,62 +1,59 @@
 En esta sección se presentarán diversos artículos de investigación o tesis las cuales abordarán diversas técnicas y enfoques que se emplearon para afrontar problemas similares al de esta tesis. Asimismo, a continuación se presenta un cuadro resumen (véase Anexo \ref{A:table}) de lo que se presenta en esta sección.
 
-\begin{comment}
-\subsection{Copper price estimation using bat algorithm \citep*{pr_dehghani2018copper}}
-\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
-\end{comment}
-\subsection{The Health ChatBots in Telemedicine: Intelligent Dialog System for Remote Support}
-	\subsubsection{Planteamiento del Problema y objetivo }
+
+\subsection{The Health ChatBots in Telemedicine: Intelligent Dialog System for Remote Support \citep*{HealthChatBots-2022}}
+	\subsubsection{Planteamiento del Problema}
 		En la actualidad, la implementación de tecnologías avanzadas como el Internet de las Cosas (IoT), Big Data y la inteligencia artificial (IA) en el sector de la salud es esencial para mejorar los servicios de telemedicina. Sin embargo, la interacción tradicional entre pacientes y el sistema de salud carece de herramientas eficientes para la recolección y análisis de datos de salud de manera amigable y precisa. Los métodos convencionales de recopilación de síntomas y datos de pacientes son a menudo tediosos y propensos a errores, lo que puede llevar a diagnósticos imprecisos y a una experiencia de usuario deficiente.
 		
 		El uso de ChatBots en telemedicina presenta una oportunidad para transformar estas interacciones, permitiendo a los pacientes comunicar sus síntomas y recibir diagnósticos preliminares de manera más interactiva y accesible. No obstante, la implementación de un sistema de ChatBot eficaz enfrenta desafíos significativos, incluyendo la necesidad de una adecuada comprensión del lenguaje natural (NLP), la integración segura de datos de pacientes, y la creación de modelos de aprendizaje automático (ML) precisos y fiables para la predicción de enfermedades
 	
 	\subsubsection{Objetivos}
 		\begin{enumerate}
-			\item Desarrollar una plataforma de ChatBot de salud que utilice tecnologías de NLP para mejorar la interacción entre los pacientes y el sistema de salud.
-			
-			\item Implementar modelos de IA y ML para la clasificación y predicción de enfermedades basadas en los síntomas reportados por los pacientes.
-			
-			\item Garantizar la seguridad y privacidad de los datos de los pacientes, cumpliendo con las normativas de protección de datos.
-			
-			\item Facilitar la accesibilidad y usabilidad del sistema mediante interfaces de usuario intuitivas y compatibles con el lenguaje natural.
-			
-			\item Evaluar la eficacia de la plataforma mediante la implementación y prueba de casos específicos, como enfermedades cardíacas y Covid-19.
+			\item Desarrollar una plataforma de ChatBot de salud que utilice tecnologías de NLP para mejorar la interacción entre los pacientes y el sistema de salud.\vspace{-2mm}
+			\item Implementar modelos de IA y ML para la clasificación y predicción de enfermedades basadas en los síntomas reportados por los pacientes.\vspace{-2mm}
+			\item Facilitar la accesibilidad y usabilidad del sistema mediante interfaces de usuario intuitivas y compatibles con el lenguaje natural.\vspace{-2mm}
 		\end{enumerate}
 			
 	\subsubsection{Fundamento Teórico}
-		La utilización de ChatBots en el ámbito de la salud se basa en tecnologías avanzadas de NLP y ML para entender y procesar el lenguaje natural de los pacientes. El NLP permite a las máquinas interpretar, analizar y responder a textos generados por humanos, facilitando la comunicación eficiente entre los pacientes y los sistemas de salud. Este proceso incluye diversas técnicas como la lematización, la segmentación morfológica y el etiquetado de partes del discurso, que ayudan a descomponer y entender el texto de entrada.
+		La utilización de ChatBots en el ámbito de la salud se basa en tecnologías avanzadas de NLP y ML para entender y procesar el lenguaje natural de los pacientes. El NLP permite a las máquinas interpretar, analizar y responder a textos generados por humanos. Este proceso incluye diversas técnicas como la lematización, la segmentación morfológica y el etiquetado de partes del discurso, que ayudan a descomponer y entender el texto de entrada.
 		
-		Los ChatBots de IA están diseñados para imitar la conversación humana utilizando algoritmos de NLP, permitiendo así la recolección de síntomas y la provisión de recomendaciones de autocuidado. Estos sistemas son capaces de analizar grandes volúmenes de datos generados por los usuarios, clasificarlos y extraer insights valiosos mediante algoritmos de ML. Además, la comprensión del lenguaje natural (NLU) es un componente crucial del NLP que transforma los datos no estructurados en datos clasificados, asignándolos a las intenciones adecuadas.
+		Los ChatBots de IA están diseñados para imitar la conversación humana utilizando algoritmos de NLP, permitiendo así la recolección de síntomas y la provisión de recomendaciones de autocuidado. Estos sistemas son capaces de analizar grandes volúmenes de datos generados por los usuarios, clasificarlos y extraer insights valiosos mediante algoritmos de ML.
 		
-		El desarrollo de un ChatBot de salud eficaz requiere la integración de varias capas tecnológicas, incluyendo motores de procesamiento de lenguaje natural, modelos de ML para la predicción de enfermedades y plataformas seguras para el manejo de datos de salud. La arquitectura modular del Health Bot, por ejemplo, facilita la escalabilidad y la adaptabilidad del sistema, permitiendo su implementación en diversos escenarios de telemedicina.
-	
+		La arquitectura modular del Health Bot, por ejemplo, facilita la escalabilidad y la adaptabilidad del sistema, permitiendo su implementación en diversos escenarios de telemedicina.
+
 	\subsubsection{Metodología empleada por los autores}	
-		\begin{itemize}
-				\item \textbf {Privacidad de Datos}
+		\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.8\textwidth]{2/1_antecedentes/Metodologia-1.png}
+			\caption{Metodologia. Fuente: \cite{Medbot-2020} }
+		\end{center}
+	\end{figure}
+	\vspace{-10mm}
+		\begin{itemize}			
+				\item \textbf{Privacidad de Datos}
 				Los datos del paciente son protegidos mediante algoritmos de encriptación asimétrica RSA/ECB/PKCS1PADDING. La clave privada RSA es protegida y solo accesible por la capa interna de la API hospitalaria. El Health Bot utiliza la clave pública para desencriptar las solicitudes, garantizando la seguridad de los datos .
 		
-				\item \textbf {Escalabilidad y Disponibilidad}
+				\item \textbf{Escalabilidad y Disponibilidad}
 				Para asegurar la disponibilidad y escalabilidad de la plataforma, se ha implementado una arquitectura distribuida sin puntos únicos de falla, utilizando servicios de Google Cloud como funciones de Firebase, bases de datos y hosting, BigQuery ML y AI Cloud .
 		
-					\begin{figure}[h]
+					\begin{figure}[H]
 						\begin{center}
-							\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Escalabilidad y Disponibilidad.png}
-							\caption{Escalabilidad y Disponibilidad. Fuente: CITAR AL FINAL }
+							\includegraphics[width=0.7\textwidth]{2/1_antecedentes/Escalabilidad y Disponibilidad.png}
+							\caption{Escalabilidad y Disponibilidad. Fuente: \cite{HealthChatBots-2022}}
 						\end{center}
 					\end{figure}
-		
-	
-				\item \textbf {Interfaz de Usuario y Procesamiento NLP}
+				\vspace{-10mm}
+				\item \textbf{Interfaz de Usuario y Procesamiento NLP}
 				El Health Bot UI soporta interfaces conversacionales basadas en texto y voz, desarrollado como una aplicación web progresiva (PWA) para proporcionar una experiencia de usuario nativa. El procesamiento NLP de DialogFlow clasifica las solicitudes de los pacientes y gestiona las respuestas utilizando un flujo de diálogo estructurado .
 		
-				\begin{figure}[h]
+				\begin{figure}[H]
 					\begin{center}
-						\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Interfaz de Usuario y Procesamiento NLP.png}
-						\caption{Interfaz de Usuario y Procesamiento NLP. Fuente: CITAR AL FINAL }
+						\includegraphics[width=0.7\textwidth]{2/1_antecedentes/Interfaz de Usuario y Procesamiento NLP.png}
+						\caption{Interfaz de Usuario y Procesamiento NLP. Fuente: \cite{HealthChatBots-2022} }
 					\end{center}
 				\end{figure}
-		
-				\item \textbf {Clasificadores de Intención}
+		\vspace{-10mm}
+				\item \textbf{Clasificadores de Intención} 
 				Los clasificadores de intención son responsables de identificar y manejar las preguntas demográficas del paciente, los síntomas conocidos, el estado actual de salud y la programación de citas. Cada intención se gestiona a través de un flujo de contexto que asegura la recogida precisa de datos y la respuesta adecuada del sistema.
 		\end{itemize}
 			
@@ -65,58 +62,50 @@ En esta sección se presentarán diversos artículos de investigación o tesis l
 	
 	La implementación de algoritmos de ML y la integración de tecnologías de NLP permitieron una interacción más fluida y precisa entre los pacientes y el sistema de salud, mejorando así la experiencia del usuario y la eficiencia del diagnóstico
 	
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\begin{center}
-			\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Resultado1-1.png}
-		\caption{Resultado. Fuente: CITAR AL FINAL }
+			\includegraphics[width=0.8\textwidth]{2/1_antecedentes/Resultado1-1.png}
+		\caption{Resultado. Fuente: \cite{HealthChatBots-2022} }
 	\end{center}
 	\end{figure}
-	
-	\begin{figure}[h]
+	\vspace{-10mm}
+	\begin{figure}[H]
 		\begin{center}
-			\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Resultado2-1.png}
-		\caption{Resultado. Fuente: CITAR AL FINAL }
+			\includegraphics[width=0.8\textwidth]{2/1_antecedentes/Resultado2-1.png}
+		\caption{Resultado. Fuente: \cite{HealthChatBots-2022} }
 	\end{center}
 	\end{figure}
-	
-	\begin{figure}[h]
+	\vspace{-10mm}
+	\begin{figure}[H]
 		\begin{center}
-			\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Resultado3-1.png}
-		\caption{Resultado. Fuente: CITAR AL FINAL }
+			\includegraphics[width=0.7\textwidth]{2/1_antecedentes/Resultado3-1.png}
+		\caption{Resultado. Fuente: \cite{HealthChatBots-2022} }
 	\end{center}
 	\end{figure}
-	
-
-\subsection{PEFT-MedAware: Large Language Model for Medical Awareness}
+	\vspace{-10mm}
+\subsection{PEFT-MedAware: Large Language Model for Medical Awareness \citep*{peftmedaware_2023}}
  %\citep*{pr_dehghani2018copper}}
 %\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
-		\subsubsection{Planteamiento del Problema y objetivo}
+		\subsubsection{Planteamiento del Problema}
 				El artículo "PEFT-MedAware: Large Language Model for Medical Awareness" de Keivalya Pandya aborda el desarrollo de un modelo de lenguaje especializado en la conciencia médica utilizando un enfoque de ajuste fino eficiente en parámetros (PEFT). El problema principal identificado es la inexactitud y la incertidumbre en las respuestas de los modelos de chat generalistas en el ámbito médico, donde la precisión y la fiabilidad son esenciales. Para abordar este problema, se propone un modelo específico, peft-MedAware, que utiliza PEFT para mejorar el modelo Falcon-1b con datos de MedQuAD, que contiene 16,407 pares de preguntas y respuestas médicas. Este enfoque optimiza el rendimiento del modelo utilizando solo el 0.44\% de sus parámetros entrenables, mejorando así la eficiencia computacional. El modelo resultante supera a otros LLMs en tareas de preguntas y respuestas médicas específicas, utilizando recursos computacionales limitados, lo que lo hace adecuado para su implementación en entornos con restricciones de recursos.
 		
 	\subsubsection{Objetivos}
 		\begin{enumerate}
-			\item Desarrollar y optimizar el modelo peft-MedAware utilizando técnicas de PEFT para mejorar la precisión en la respuesta a consultas médicas específicas.
-			
-			\item Reducir el uso de recursos computacionales manteniendo o mejorando la precisión del modelo, haciéndolo adecuado para su implementación en entornos con recursos limitados.
-			
-			\item Aumentar la eficiencia en el entrenamiento de modelos mediante la utilización de configuraciones avanzadas de quantización.
-			
-			\item Proporcionar respuestas médicas contextualmente relevantes y basadas en evidencia a partir de un amplio conjunto de datos médicos.
-			
-			\item Evaluar el rendimiento del modelo en comparación con otros modelos de lenguaje a gran escala en tareas de preguntas y respuestas médicas.
+			\item Desarrollar y optimizar el modelo peft-MedAware utilizando técnicas de PEFT para mejorar la precisión en la respuesta a consultas médicas específicas.\vspace{-2mm}		
+			\item Aumentar la eficiencia en el entrenamiento de modelos mediante la utilización de configuraciones avanzadas de quantización.\vspace{-2mm}
+			\item Proporcionar respuestas médicas contextualmente relevantes y basadas en evidencia a partir de un amplio conjunto de datos médicos.\vspace{-2mm}
 		\end{enumerate}
-		
-		
+				
 	\subsubsection{Fundamento Teórico}
 		El fundamento teórico del artículo se basa en el uso de tecnologías avanzadas de procesamiento del lenguaje natural (NLP) y ajuste fino eficiente en parámetros (PEFT) para mejorar la precisión y eficiencia de los modelos de lenguaje en el ámbito médico.
 	
 		\begin{itemize}
 			
 			\item \textbf{Procesamiento del Lenguaje Natural (NLP)}
-			El NLP es una rama de la inteligencia artificial que se centra en la interacción entre las computadoras y el lenguaje humano. Este campo permite a las máquinas interpretar, comprender y responder a textos generados por humanos. En el contexto del artículo, el NLP se utiliza para analizar y clasificar datos médicos en texto, permitiendo al modelo peft-MedAware proporcionar respuestas precisas y contextualmente relevantes a consultas médicas.
+			Se utiliza para analizar y clasificar datos médicos en texto, permitiendo al modelo peft-MedAware proporcionar respuestas precisas y contextualmente relevantes a consultas médicas.
 			
 			\item \textbf{Ajuste Fino Eficiente en Parámetros (PEFT)}
-			El PEFT es una técnica de optimización que ajusta solo los parámetros más influyentes de un modelo, lo que reduce significativamente la sobrecarga computacional y el tiempo de entrenamiento. Esta técnica es crucial cuando se trabaja con grandes modelos de lenguaje, ya que permite un uso más eficiente de los recursos computacionales. En el caso del modelo peft-MedAware, solo se ajustaron 3 millones de parámetros de un total de 700 millones, lo que representa el 0.44\% del total, logrando así una optimización significativa sin comprometer el rendimiento del modelo.
+			El PEFT es una técnica de optimización que ajusta solo los parámetros más influyentes de un modelo, lo que reduce significativamente la sobrecarga computacional y el tiempo de entrenamiento. Esta técnica es crucial cuando se trabaja con grandes modelos de lenguaje, ya que permite un uso más eficiente de los recursos computacionales.
 			
 			\item \textbf{Modelos de Lenguaje Grande (LLMs)}
 			Los LLMs son modelos de inteligencia artificial que contienen miles de millones de parámetros y están diseñados para comprender y generar texto. Estos modelos tienen el potencial de revolucionar la búsqueda de información en el ámbito médico al proporcionar información precisa y actualizada. Sin embargo, su eficacia depende de su capacidad para ofrecer respuestas detalladas y específicas a consultas médicas.
@@ -131,16 +120,14 @@ En esta sección se presentarán diversos artículos de investigación o tesis l
 
 
 \subsubsection{Metodología empleada por los autores}
-
 	La metodología utilizada en el desarrollo del modelo peft-MedAware incluye varias etapas críticas, desde la preprocesamiento de datos hasta la implementación de técnicas de ajuste fino y cuantificación para optimizar el rendimiento del modelo.
-	
-	\begin{figure}[h]
-		\begin{center}
-			\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Metodologia1- 2.png}
-		\caption{Metodologia. Fuente: CITAR AL FINAL }
-	\end{center}
-	\end{figure}
-	
+			\begin{figure}[H]
+			\begin{center}
+				\includegraphics[width=0.8\textwidth]{2/1_antecedentes/Metodologia1- 2.png}
+			\caption{Metodologia. Fuente: \cite{peftmedaware_2023}}
+			\end{center}
+			\end{figure}
+			\vspace{-10mm}
 		\begin{enumerate}
 			\item \textbf{Selección y Preprocesamiento de Datos:}
 			
@@ -150,7 +137,7 @@ En esta sección se presentarán diversos artículos de investigación o tesis l
 			
 			\item \textbf{Entrenamiento del Modelo:}
 			
-				\subitem \textbf{Ajuste Fino Eficiente en Parámetros (PEFT):} Se aplicó PEFT para ajustar finamente el modelo Falcon-1b utilizando solo el 0.44\% de sus parámetros entrenables (aproximadamente 3 millones de 700 millones). Esto permitió reducir significativamente la sobrecarga computacional mientras se mantenía una alta precisión en las respuestas del modelo.
+				\subitem \textbf{Ajuste Fino Eficiente en Parámetros (PEFT):} Se aplicó PEFT para ajustar finamente el modelo Falcon-1b utilizando solo el 0.44\% de sus parámetros entrenables (aproximadamente 3 millones de 700 millones). Con esto se redujo la sobrecarga computacional.
 			
 				\subitem \textbf{Quantización:} Se utilizó la configuración de BitsAndBytes para procesar los datos con precisión de 4 bits, lo que redujo el consumo de memoria y permitió un entrenamiento más eficiente en hardware diverso. Además, se empleó la técnica de doble quantización para capturar características intrincadas de los datos sin comprometer la precisión numérica.
 			
@@ -162,94 +149,67 @@ En esta sección se presentarán diversos artículos de investigación o tesis l
 			
 			\item \textbf{Evaluación y Comparación:}
 			
-				\subitem \textbf{Comparación con Otros Modelos:} Se comparó el rendimiento del modelo peft-MedAware con otros modelos de lenguaje a gran escala, como ChatGPT y Baize-healthcare, en tareas de preguntas y respuestas médicas. Se demostró que peft-MedAware proporciona respuestas más precisas y contextualmente relevantes, superando a los modelos estándar en términos de precisión sin requerir una gran cantidad de recursos computacionales.
-			
+				\subitem \textbf{Comparación con Otros Modelos:} Se comparó el rendimiento del modelo peft-MedAware con otros modelos de lenguaje a gran escala, como ChatGPT y Baize-healthcare, en tareas de preguntas y respuestas médicas. 
 		\end{enumerate}
-	
-	
+		
 		\subsubsection{Resultados obtenidos}
 			Los resultados del estudio muestran que el modelo peft-MedAware supera a otros modelos de lenguaje en tareas de preguntas y respuestas médicas específicas, utilizando recursos computacionales limitados. El modelo fue capaz de proporcionar respuestas precisas y contextualmente relevantes a una amplia gama de consultas médicas, demostrando una alta eficiencia y especialización. Además, la reducción en los requisitos computacionales permitió tiempos de entrenamiento más rápidos y una mejor eficiencia general del modelo. La implementación de técnicas de PEFT y cuantificación optimizada resultó en un modelo que es tanto preciso como eficiente, adecuado para su despliegue en entornos con restricciones de recursos.
 
+\subsection{Medbot: Conversational Artificial Intelligence Powered Chatbot for Delivering Tele-Health after COVID-19 \citep*{Medbot-2020}} 
 
-\subsection{Medbot: Conversational Artificial Intelligence Powered Chatbot for Delivering Tele-Health after COVID-19} %\citep*{pr_dehghani2018copper}}.
-%\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
-		\subsubsection{Planteamiento del Problema y objetivo}
+		\subsubsection{Planteamiento del Problema}
 		La pandemia de COVID-19 ha exacerbado los desafíos existentes en la atención médica, particularmente en áreas rurales de India, donde el acceso a servicios de salud es limitado. El artículo aborda la necesidad de una solución innovadora para superar estas barreras mediante el uso de inteligencia artificial (IA) y tecnologías de telemedicina. Específicamente, propone el desarrollo de un chatbot conversacional multilingüe llamado "Aapka Chikitsak", diseñado para proporcionar educación sanitaria primaria, asesoramiento y medidas preventivas a los pacientes sin necesidad de visitar físicamente un hospital. Este enfoque no solo busca reducir la transmisión del virus, sino también mejorar la accesibilidad y la calidad de la atención médica en un contexto de recursos limitados.
 		
 	\subsubsection{Objetivos}
 		\begin{enumerate}
-			\item Mejorar el acceso a la atención médica: Facilitar el acceso a información y consultas médicas para poblaciones rurales y marginadas.
+			\item Aliviar la presión sobre los servicios de salud presenciales mediante la provisión de consultas virtuales.\vspace{-2mm}
+			\item Ofrecer información sanitaria básica, medidas preventivas y remedios caseros para enfermedades prevalentes.\vspace{-2mm}
+			\item Utilizar procesamiento de lenguaje natural y arquitectura sin servidor para crear un sistema eficiente y escalable.\vspace{-2mm}
+			\end{enumerate}
 			
-			\item Reducir la carga en los sistemas de salud: Aliviar la presión sobre los servicios de salud presenciales mediante la provisión de consultas virtuales.
-			
-			\item Proveer educación sanitaria: Ofrecer información sanitaria básica, medidas preventivas y remedios caseros para enfermedades prevalentes.
-			
-			\item Implementar tecnología avanzada: Utilizar procesamiento de lenguaje natural y arquitectura sin servidor para crear un sistema eficiente y escalable.
-			
-			\item Promover la salud pública: Ayudar en la prevención de enfermedades infecciosas y mejorar el bienestar general de la población.
-		\end{enumerate}
-		
-		
-		
 	\subsubsection{Fundamento Teórico}
 		El fundamento teórico del artículo se basa en varios pilares de la inteligencia artificial y la telemedicina:
 		\begin{itemize}
-		
-		\item \textbf{Inteligencia Artificial en Salud:} La IA, a través de chatbots y asistentes virtuales, ha demostrado ser eficaz en la simulación de interacciones humanas para proporcionar atención médica. Ejemplos previos incluyen sistemas como ELIZA y PARRY, que imitan interacciones humanas para fines terapéuticos y de diagnóstico .
-		
-		\item \textbf{Procesamiento de Lenguaje Natural (NLP):} El uso de NLP permite que los chatbots comprendan y respondan a las consultas de los usuarios en lenguaje natural, facilitando interacciones más humanas y efectivas. Esto incluye la conversión de voz a texto y viceversa, esencial para la funcionalidad del chatbot en múltiples idiomas.
-		
-		\item \textbf{Telemedicina:} La telemedicina permite la distribución de servicios de salud a distancia, reduciendo la necesidad de visitas físicas a los centros de salud. Esto es particularmente relevante en el contexto de la pandemia de COVID-19, donde el distanciamiento social es crucial.
-		
-		\item \textbf{Arquitectura sin Servidor:} El uso de arquitecturas sin servidor (serverless) permite implementar servicios de backend sin necesidad de infraestructura dedicada, lo que facilita la escalabilidad y la eficiencia del sistema.
+			\item \textbf{Inteligencia Artificial en Salud:} La IA ha demostrado ser eficaz en la simulación de interacciones humanas para proporcionar atención médica. Ejemplos previos incluyen sistemas como ELIZA y PARRY, que imitan interacciones humanas para fines terapéuticos y de diagnóstico.
+			\item \textbf{Procesamiento de Lenguaje Natural (NLP):} El uso de NLP permite que los chatbots comprendan y respondan a las consultas de los usuarios en lenguaje natural, facilitando interacciones más humanas y efectivas. Esto incluye la conversión de voz a texto y viceversa, esencial para la funcionalidad del chatbot en múltiples idiomas.
+			\item \textbf{Telemedicina:} La telemedicina permite la distribución de servicios de salud a distancia, reduciendo la necesidad de visitas físicas a los centros de salud.
+			\item \textbf{Arquitectura sin Servidor:} El (serverless) permite implementar servicios de backend sin necesidad de infraestructura dedicada, lo que facilita la escalabilidad y la eficiencia del sistema.
 		\end{itemize}
 
 \subsubsection{Metodología empleada por los autores}
-	La metodología empleada en el desarrollo del chatbot "Aapka Chikitsak" incluye varios componentes clave:
-	\begin{figure}[h]
-		\begin{center}
-			\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Metodologia1- 3.png}
-			\caption{Metodologia. Fuente: CITAR AL FINAL }
-		\end{center}
-	\end{figure}
-	\begin{enumerate}
-		
+	La metodología empleada en el desarrollo del chatbot $"$Aapka Chikitsak" incluye varios componentes clave:
+			\begin{figure}[H]
+				\begin{center}
+					\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Metodologia1- 3.png}
+					\caption{Metodologia. Fuente: \cite{Medbot-2020} }
+				\end{center}
+			\end{figure}
+			\vspace{-10mm}
+			\begin{enumerate}
+	
 		\item \textbf{Análisis de Requisitos:} Se identificaron las necesidades de los usuarios, particularmente en áreas rurales, para diseñar un sistema que sea accesible y fácil de usar.
-		
-		\item \textbf{Diseño de la Arquitectura:} La aplicación se construyó sobre una arquitectura sin servidor utilizando Google Cloud Platform (GCP) y Firebase Cloud Functions. Esta elección permite una fácil escalabilidad y reduce la necesidad de infraestructura física.
-		
+		\item \textbf{Diseño de la Arquitectura:} La aplicación se construyó sobre una arquitectura sin servidor utilizando Google Cloud Platform (GCP) y Firebase Cloud Functions. 
 		\item \textbf{Desarrollo del Chatbot:} Se desarrolló un chatbot multilingüe utilizando el API de Dialogflow para la creación de una interfaz conversacional automatizada. El chatbot puede manejar entradas de voz y texto, procesarlas usando NLP y generar respuestas adecuadas.
-		
 		\item \textbf{Entrenamiento del Modelo:} Se entrenaron modelos de NLP para reconocer y entender diversas consultas de salud. Los modelos se alimentaron con datos relevantes para mejorar su precisión en la identificación de síntomas y la provisión de consejos médicos.
+		\item \textbf{Pruebas y Despliegue:} La aplicación se integró con diversas bases de datos de salud y se sometió a pruebas exhaustivas para asegurar su funcionalidad y precisión. Se realizaron pruebas de usuario para ajustar la interfaz y mejorar la experiencia del usuario. El sistema se desplegó en la infraestructura de GCP, asegurando su disponibilidad y accesibilidad. 
 		
-		\item \textbf{Integración y Pruebas:} La aplicación se integró con diversas bases de datos de salud y se sometió a pruebas exhaustivas para asegurar su funcionalidad y precisión. Se realizaron pruebas de usuario para ajustar la interfaz y mejorar la experiencia del usuario.
-		
-		\item \textbf{Despliegue y Mantenimiento:} El sistema se desplegó en la infraestructura de GCP, asegurando su disponibilidad y accesibilidad. Se implementó un sistema de monitoreo continuo para mantener la calidad del servicio y realizar mejoras basadas en el feedback de los usuarios.
 	\end{enumerate}
-
 		\subsubsection{Resultados obtenidos}
-Los resultados del estudio muestran que el chatbot "Aapka Chikitsak" ha logrado reducir significativamente las barreras de acceso a los servicios de salud en las áreas rurales de India. El bot proporciona información sobre las enfermedades más prevalentes, medidas preventivas, remedios caseros y recomendaciones dietéticas basadas en la ubicación del usuario. Además, ofrece sesiones de asesoramiento interactivo para el apoyo emocional y la atención prenatal. La implementación del chatbot ha demostrado ser eficaz en la detección de enfermedades comunes y la provisión de soluciones inmediatas y eficientes a los pacientes.
+Los resultados del estudio muestran que el chatbot $"$Aapka Chikitsak" ha logrado reducir significativamente las barreras de acceso a los servicios de salud en las áreas rurales de India. El bot proporciona información sobre las enfermedades más prevalentes, medidas preventivas, remedios caseros y recomendaciones dietéticas basadas en la ubicación del usuario. Además, ofrece sesiones de asesoramiento interactivo para el apoyo emocional y la atención prenatal. La implementación del chatbot ha demostrado ser eficaz en la detección de enfermedades comunes y la provisión de soluciones inmediatas y eficientes a los pacientes.
 
-\subsection{Intelligent Chatbot for Medical Assistance in Rural Areas} %\citep*{pr_dehghani2018copper}}
-%\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
-
+\subsection{Intelligent Chatbot for Medical Assistance in Rural Areas \citep*{IntelligentChatbot_2020}} 
 	\subsubsection{Planteamiento del Problema y objetivo}
 		El artículo "Intelligent Chatbot for Medical Assistance in Rural Areas" aborda la problemática de la falta de acceso a servicios médicos en las áreas rurales de la India, donde la mayoría de los doctores y facilidades hospitalarias están concentrados en zonas urbanas. Esto deja a millones de personas sin acceso adecuado a atención médica. Para abordar esta disparidad, los autores han desarrollado una aplicación de chatbot que actúa como un asistente médico virtual, diseñado para conectar a los pacientes rurales con médicos y proporcionar asistencia médica básica. La aplicación utiliza inteligencia artificial para responder consultas médicas, recomendar prácticas de tratamiento y derivar a los pacientes a médicos en casos de problemas más graves. El objetivo es ofrecer una herramienta accesible que pueda brindar información médica esencial, mejorar la autogestión de la salud y reducir la carga sobre los servicios de salud urbanos.
-
-	\subsubsection{Objetivos}
-		\begin{enumerate}
-			\item Mejorar el acceso a servicios médicos.
-			
-			\item Proporcionar asistencia médica básica.
-			
-			\item Incrementar la eficiencia del sistema de salud.
-			
-			\item Fomentar la educación en salud.
-			
-			\item Implementar tecnología avanzada.
-		\end{enumerate}
-
+	
 	\subsubsection{Fundamento Teórico}
+	
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.8\textwidth]{2/1_antecedentes/Intelligent-FundaTteo.png}
+			\caption{Resultado. Fuente: \cite{IntelligentChatbot_2020}}
+		\end{center}
+	\end{figure}
+	\vspace{-10mm}
 	
 		\begin{itemize}
 		\item \textbf{Procesamiento de Lenguaje Natural (NLP):} El NLP permite que los chatbots entiendan y procesen el lenguaje humano. Utilizando algoritmos de NLP, el chatbot puede interpretar las consultas de los usuarios y proporcionar respuestas adecuadas. Esto incluye la identificación de síntomas y la recomendación de tratamientos básicos.
@@ -264,7 +224,13 @@ Los resultados del estudio muestran que el chatbot "Aapka Chikitsak" ha logrado 
 		\end{itemize}
 
 	\subsubsection{Metodología empleada por los autores}
-	
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.8\textwidth]{2/1_antecedentes/Metodologia-4.png}
+			\caption{Metodologia. Fuente: \cite{Medbot-2020} }
+		\end{center}
+	\end{figure}
+	\vspace{-10mm}
 		\begin{enumerate}
 		
 		\item \textbf{Análisis de Requisitos:}
@@ -291,66 +257,62 @@ Los resultados del estudio muestran que el chatbot "Aapka Chikitsak" ha logrado 
 	
 			\subitem Dado que muchas áreas rurales tienen acceso limitado a Internet, se implementaron funcionalidades de comunicación fuera de línea utilizando Twilio. Esto permite a los usuarios interactuar con el chatbot a través de mensajes de texto y llamadas telefónicas, incluso sin una conexión a Internet.
 		
-		\item \textbf{Pruebas y Evaluación:}
+		\item \textbf{Pruebas, Evaluación y Despliegue:}
 		
-			\subitem La aplicación se sometió a pruebas exhaustivas para asegurar su funcionalidad y precisión. Se realizaron pruebas de usuario para ajustar la interfaz y mejorar la experiencia del usuario. Además, se evaluó la precisión de las respuestas del chatbot mediante la comparación con respuestas proporcionadas por profesionales de la salud.
-	
-		\item \textbf{Despliegue y Mantenimiento:}
-		
-			\subitem El sistema se desplegó en la infraestructura de Heroku y Firebase, asegurando su disponibilidad y accesibilidad. Se implementó un sistema de monitoreo continuo para mantener la calidad del servicio y realizar mejoras basadas en el feedback de los usuarios.
-		
+			\subitem La aplicación se sometió a pruebas exhaustivas para asegurar su funcionalidad y precisión. Se realizaron pruebas de usuario para ajustar la interfaz y mejorar la experiencia del usuario. Además, se evaluó la precisión de las respuestas del chatbot mediante la comparación con respuestas proporcionadas por profesionales de la salud. El sistema se desplegó en la infraestructura de Heroku y Firebase, asegurando su disponibilidad y accesibilidad
+			
 		\end{enumerate}
 
 	\subsubsection{Resultados obtenidos}
 		Los resultados presentados en el estudio muestran que el chatbot es capaz de proporcionar información médica precisa y útil a los usuarios rurales, mejorando significativamente el acceso a servicios médicos básicos. La aplicación ha sido bien recibida por los usuarios, con una alta tasa de interacción y satisfacción. El análisis de las sesiones de usuario indica que el chatbot maneja eficazmente una variedad de consultas médicas, proporcionando respuestas rápidas y relevantes. Los usuarios han utilizado principalmente el chatbot para consultas sobre síntomas comunes, medicación y recomendaciones de primeros auxilios. Además, la capacidad del chatbot para operar sin conexión constante a internet ha sido un factor crucial en su aceptación y uso en áreas rurales con infraestructura limitada de internet.
+	\begin{table}[H]
+		\centering
+			\begin{tabular}{l|ccc}
+				\multicolumn{1}{c|}{INTENT} & \multicolumn{1}{c|}{SESSIONS} & \multicolumn{1}{c|}{COUNT} & \multicolumn{1}{c|}{EXIT\%} \\ \hline
+				FIND DOCTOR & 10 & 52 & 1.92 \\
+				FIND DOCTOR-CUSTOM & 8 & 48 & 18.75 \\
+				SMALLTALK.GREETINGS.HELLO & 6 & 22 & 18.18 \\
+				WEATHER & 5 & 16 & 12.50 \\
+				FEVER & 4 & 12 & 8.33 \\
+				FIND HOSPITAL & 5 & 11 & 2.50 \\
+				FIND HOSPITAL-CUSTOM & 4 & 9 & 22.22 \\
+				WEATHER-CUSTOM & 2 & 9 & 8.90 \\
+				DIABETES & 3 & 7 & 2.10 \\ \hline
+			\end{tabular}
+		\caption{Resultado. Fuente: \cite{IntelligentChatbot_2020}}
+	\end{table}
 
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Resultado-4.png}
-		\caption{Resultado. Fuente: CITAR AL FINAL }
-	\end{center}
-\end{figure}
 
-\subsection{HHH: An Online Medical Chatbot System based on Knowledge Graph and Hierarchical Bi-Directional Attention} %\citep*{pr_dehghani2018copper}}
+%\vspace{-10mm}
+
+\subsection{HHH: An Online Medical Chatbot System based on Knowledge Graph and Hierarchical Bi-Directional Attention \citep*{HHHAnOnlineMedical}} %\citep*{pr_dehghani2018copper}}
 %\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
 	\subsubsection{Planteamiento del Problema y objetivo}
 		El artículo "HHH: An Online Medical Chatbot System based on Knowledge Graph and Hierarchical Bi-Directional Attention" aborda los problemas que enfrentan los pacientes para acceder a servicios de atención primaria, como la dificultad para ver a un médico, largos tiempos de espera y la inconveniencia de hacer citas. Para abordar estos desafíos, los autores proponen un sistema de chatbot médico que combina un grafo de conocimiento con un modelo de atención bidireccional jerárquico (HBAM). El chatbot, denominado HHH (Healthcare Helper System), está diseñado para responder preguntas médicas complejas utilizando un grafo de conocimiento construido a partir de datos médicos recopilados de Internet y un modelo de similitud de texto basado en aprendizaje profundo. Este enfoque híbrido permite al chatbot comprender y responder preguntas en lenguaje natural, proporcionando respuestas precisas y relevantes a los usuarios con poco conocimiento médico. El objetivo principal es mejorar la eficiencia y calidad del servicio médico, facilitando el acceso a información médica y reduciendo el desperdicio de recursos.
 
-	\subsubsection{Objetivos}
-		\begin{itemize}
-			\item Reducir el desperdicio de recursos y tiempo.
-			
-			\item Proveer respuestas precisas a usuarios sin conocimientos especializados.
-			
-			\item Facilitar la gestión y extensión del sistema.
-		\end{itemize}
-
-
-	
 	\subsubsection{Fundamento Teórico}
-	El fundamento teórico del trabajo se basa en la combinación de dos enfoques: el uso de un grafo de conocimiento y un modelo de atención jerárquico bidireccional (HBAM) para procesar y responder preguntas en el contexto médico.
+	El fundamento teórico del trabajo se basa en la combinación de dos enfoques:grafo de conocimiento y HBAM para procesar y responder preguntas en el contexto médico.
 		
 		\begin{itemize}
-			\item \textbf{ Grafo de Conocimiento:} Un grafo de conocimiento es una estructura de datos que representa información en forma de entidades y las relaciones entre ellas. En este sistema, el grafo de conocimiento almacena información médica, incluyendo enfermedades, síntomas, tratamientos y relaciones entre estos conceptos. Este enfoque es útil para proporcionar respuestas rápidas y precisas a preguntas bien definidas, aprovechando la estructura organizada y fácilmente consultable del grafo.
+			\item \textbf{ Grafo de Conocimiento:} El grafo de conocimiento almacena información médica, incluyendo enfermedades, síntomas, tratamientos y relaciones entre estos conceptos. Este proporciona respuestas rápidas y precisas a preguntas bien definidas, aprovechando la estructura organizada y fácilmente consultable del grafo.
 		
-			\item \textbf{Modelo de Atención Jerárquico Bidireccional (HBAM):} Este modelo es una extensión de los modelos LSTM (Long Short-Term Memory), que son una clase de redes neuronales recurrentes (RNN) diseñadas para procesar secuencias de datos. El HBAM incluye una capa de BiLSTM que captura información de contexto en ambas direcciones (hacia adelante y hacia atrás) y una capa de atención que resalta las palabras clave en una oración. Esto permite al modelo comprender mejor el significado semántico de las preguntas y encontrar respuestas relevantes en una gran base de datos de preguntas y respuestas médicas. La combinación de la capa de BiLSTM y la capa de atención mejora la precisión del modelo al identificar la similitud entre preguntas.
+			\item \textbf{Modelo de Atención Jerárquico Bidireccional (HBAM):} Este modelo es una extensión de los modelos LSTM (Long Short-Term Memory), que son una clase de redes neuronales recurrentes (RNN) diseñadas para procesar secuencias de datos. El HBAM incluye una capa de BiLSTM que captura información de contexto en ambas direcciones (hacia adelante y hacia atrás) y una capa de atención que resalta las palabras clave en una oración.
 		
-			\item \textbf{Siamese Framework y Distancia Manhattan:} El modelo utiliza un enfoque de redes siamés, donde dos redes idénticas comparten los mismos pesos para procesar dos entradas diferentes y comparar sus representaciones. La distancia Manhattan se utiliza para medir la similitud semántica entre las representaciones de las oraciones, lo que permite identificar preguntas similares en la base de datos y proporcionar respuestas precisas.
-		
+			\item \textbf{Siamese Framework y Distancia Manhattan:} El modelo utiliza un enfoque de redes siamés, donde dos redes idénticas comparten los mismos pesos para procesar dos entradas diferentes y comparar sus representaciones. La distancia Manhattan se utiliza para medir la similitud semántica entre las representaciones de las oraciones.
 		\end{itemize}
 		
-El uso combinado de estos enfoques permite al sistema HHH manejar una amplia variedad de preguntas médicas, proporcionando respuestas tanto desde un grafo de conocimiento como utilizando modelos de aprendizaje profundo para comparar y entender la semántica de las consultas en lenguaje natural.
+%El uso combinado de estos enfoques permite al sistema HHH manejar una amplia variedad de preguntas médicas, proporcionando respuestas tanto desde un grafo de conocimiento como utilizando modelos de aprendizaje profundo para comparar y entender la semántica de las consultas en lenguaje natural.
 
 \subsubsection{Metodología empleada por los autores}
 La metodología adoptada para el desarrollo del sistema HHH incluye varios componentes y pasos clave para garantizar su efectividad y precisión:
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Metodologia-5.png}
-		\caption{Metodologia. Fuente: CITAR AL FINAL }
+		\caption{Metodologia. Fuente: \cite{HHHAnOnlineMedical} }
 	\end{center}
 \end{figure}
-
+\vspace{-10mm}
 	\begin{enumerate}
 	
 		\item \textbf{Diseño de la Arquitectura del Sistema:}
@@ -389,34 +351,50 @@ La metodología adoptada para el desarrollo del sistema HHH incluye varios compo
 
 		Además, el sistema HHH demostró ser capaz de manejar una variedad de preguntas médicas, proporcionando respuestas precisas y relevantes tanto desde el grafo de conocimiento como mediante la comparación de similitud de texto. Los experimentos adicionales realizados con conjuntos de datos médicos adicionales confirmaron la robustez y flexibilidad del modelo HBAM, mostrando un rendimiento consistente en diferentes escenarios de prueba.
 
-			\begin{figure}[h]
-				\begin{center}
-					\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Resultado-5.png}
-					\caption{Resultado. Fuente: CITAR AL FINAL }
-				\end{center}
-			\end{figure}
-			
-			\begin{figure}[h]
-				\begin{center}
-					\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Resultado2-5.png}
-					\caption{Resultado. Fuente: CITAR AL FINAL }
-				\end{center}
-			\end{figure}
+		\begin{table}[h!]
+			\centering
+			\caption{Metodos de comparacion. Fuente:  \cite{HHHAnOnlineMedical}}
+			\begin{tabular}{ccc}
+				\hline
+				\textbf{Methods} & \textbf{Average Evaluation Accuracy} & \textbf{Range of Change by 30 Times Experiments} \\ \hline
+				BERT [7] & 78.2\% & (-1.8\%,+1.3\%) \\
+				MaLSTM [9] & 78.4\% & (-2.9\%,+2.0\%) \\
+				HBAM & 81.2\% & (-2.4\%,+2.2\%) \\
+				\hline
+			\end{tabular}
+		\end{table}
+		
+		\begin{table}[h]
+			\centering
+			\begin{tabular}{|>{\raggedright}p{4cm}|>{\raggedright}p{2.5cm}|>{\raggedright}p{3.5cm}|>{\raggedright\arraybackslash}p{4.5cm}|}
+				\hline
+				\textbf{Medical website name} & \textbf{Method name} & \textbf{Average predict accuracy} & \textbf{Range of change by 10 times experiments} \\
+				\hline
+				\multirow{3}{*}{ehealthforumQAs} 
+				& BERT & 78.5\% & (-1.8\%, +1.1\%) \\
+				& HBAM & \textbf{81.3\%} & (-1.2\%, +1.1\%) \\
+				& MaLSTM & 78.4\% & (-2.9\%, +1.5\%) \\
+				\hline
+				\multirow{3}{*}{questionDoctorQAs} 
+				& BERT & 78.2\% & (-1.4\%, +0.9\%) \\
+				& HBAM & \textbf{80.9\%} & (-2.1\%, +2.5\%) \\
+				& MaLSTM & 78.1\% & (-1.7\%, +1.9\%) \\
+				\hline
+				\multirow{3}{*}{webmdQAs} 
+				& BERT & 78.1\% & (-1.6\%, +0.9\%) \\
+				& HBAM & \textbf{81.2\%} & (-1.2\%, +1.3\%) \\
+				& MaLSTM & 78.5\% & (-1.5\%, +1.9\%) \\
+				\hline
+			\end{tabular}
+			\caption{Resultado de exactitud. Fuente: \cite{HHHAnOnlineMedical}}
+		\end{table}
 
+%\vspace{-10mm}
 
-\subsection{HealFavor: Dataset and A Prototype System for Healthcare ChatBot} %\citep*{pr_dehghani2018copper}}
+\subsection{HealFavor: Dataset and A Prototype System for Healthcare ChatBot \citep*{HealFavor}} %\citep*{pr_dehghani2018copper}}
 %\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
-	\subsubsection{Planteamiento del Problema y objetivo}
+	\subsubsection{Planteamiento del Problema}
 		El acceso a servicios médicos puede ser difícil debido a varios factores, como la escasez de médicos, largos tiempos de espera y la inconveniencia de hacer citas. Estas barreras afectan tanto a pacientes como a proveedores de servicios de salud, resultando en un uso ineficiente de los recursos disponibles. En respuesta a estos desafíos, se han desarrollado sistemas innovadores como los chatbots médicos basados en inteligencia artificial. Estos sistemas tienen el potencial de simular conversaciones en tiempo real, proporcionando asistencia médica interactiva y personalizada. El trabajo presentado propone el desarrollo de un chatbot médico llamado HealFavor, que utiliza un conjunto de datos autogenerado y una arquitectura prototipo para mejorar la accesibilidad médica y proporcionar respuestas precisas a consultas médicas comunes.
-
-\subsubsection{Objetivos}
-	\begin{itemize}
-		\item Mejorar el acceso a servicios médicos.
-		\item Proveer asistencia médica básica.
-		\item Incrementar la eficiencia del sistema de salud.
-		\item Fomentar la educación en salud.
-		\item Implementar tecnología avanzada.
-	\end{itemize}	
 
 \subsubsection{Fundamento Teórico}
 El fundamento teórico del sistema de chatbot HealFavor se basa en la integración de técnicas avanzadas de inteligencia artificial y procesamiento de lenguaje natural (NLP). Estos enfoques permiten al sistema comprender y responder a consultas médicas en lenguaje natural, proporcionando respuestas precisas y relevantes.
@@ -427,56 +405,39 @@ El fundamento teórico del sistema de chatbot HealFavor se basa en la integraci�
 		El desarrollo de chatbots se remonta a sistemas pioneros como ELIZA, desarrollado en la década de 1960, que utilizaba patrones de scripts codificados para simular conversaciones. ALICE, que utilizaba patrones basados en el lenguaje de marcado de inteligencia artificial (AIML), mejoró esta capacidad al almacenar respuestas en archivos AIML. Sistemas más recientes como Jabberwacky y Cleverbot no solo utilizan respuestas preprogramadas, sino que también aprenden de las interacciones pasadas para mejorar sus respuestas
 	
 	\item \textbf{Arquitectura del Sistema:} La aplicación HealFavor se basa en el marco de RASA, utilizando políticas de diálogo embebidas recurrentes para la generación de respuestas. La integración con MongoDB permite el almacenamiento en tiempo real de historiales de chat y análisis de informes médicos, facilitando un sistema escalable y eficiente.
-	
-	
-\end{itemize}
-
-
+	\end{itemize}
 \subsubsection{Metodología empleada por los autores}
 La metodología adoptada para el desarrollo del sistema HHH incluye varios componentes y pasos clave para garantizar su efectividad y precisión:
-
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.8\textwidth]{2/1_antecedentes/Metodologia-6.png}
+			\caption{Metodologia. Fuente: \cite{Medbot-2020} }
+		\end{center}
+	\end{figure}
+	\vspace{-10mm}
 	\begin{enumerate}
 		
 		\item \textbf{Preparación de Datos:}
-			
 			\subitem \textbf{Fuentes y Observaciones:} Los datos se recopilaron de fuentes confiables como WebMD y Drugs.com, y se consultó con expertos médicos para obtener información sobre síntomas comunes.
 			\subitem \textbf{Calidad y Filtrado:} Los datos preparados se verificaron para asegurar su consistencia y relevancia. Se realizaron grandes clasificaciones iniciales para abarcar un amplio conjunto de enfermedades y luego se refinaron según síntomas específicos.
-		
 		\item \textbf{Preprocesamiento de Datos:}
 			\subitem \textbf{Técnicas Utilizadas:} Incluyen conversión a minúsculas, eliminación de palabras vacías, tokenización y lematización para mejorar la clasificación y precisión de los datos.
-		
 		\item \textbf{Representación de Datos:}
 			\subitem \textbf{Clasificación de Intenciones:} Se desarrollaron módulos para clasificar las intenciones de los pacientes como un problema de clasificación múltiple. Las secuencias de intenciones se utilizaron para predecir las respuestas y continuar la conversación.
 			\subitem \textbf{Predicción de Secuencias:} Se prepararon conjuntos exhaustivos de secuencias para diferentes casos de uso de pacientes, incluyendo preguntas relacionadas con la salud y la reserva de citas.
-		
 		\item \textbf{Arquitectura del Sistema Prototipo:}
 			\subitem \textbf{Marco RASA:} Utiliza políticas de diálogo embebidas recurrentes inspiradas en el algoritmo StarSpace de Facebook AI Research. Se crean vectores de características utilizando la representación de Bag of Words (BoW) y se generan incrustaciones a través de capas densas para la entrada del paciente y las acciones del sistema.
 			\subitem \textbf{Mecanismo de Atención:} El input del usuario y el output previo de la red se alimentan en un modelo recurrente para calcular la atención, utilizando la suma total del output de la capa de incrustación y del mecanismo de atención para generar la respuesta final.
-		
 		\item \textbf{Evaluación del Sistema:}
 			\subitem \textbf{Pruebas de Usuario:} Se realizaron pruebas exhaustivas con evaluadores que hicieron un total de 162 preguntas al sistema. Las respuestas se calificaron en una escala de 1 a 3, obteniendo una precisión total del 46.50\%.
-		
-		\item \textbf{Despliegue y Mantenimiento:}
-			\subitem \textbf{Implementación en Entornos Reales:} El sistema se desplegó utilizando el marco de RASA y MongoDB, asegurando su disponibilidad y accesibilidad en tiempo real. Se implementó un sistema de monitoreo continuo para mantener la calidad del servicio y realizar mejoras basadas en el feedback de los usuarios.
 	\end{enumerate}
 
 \subsubsection{Resultados obtenidos}
 	El sistema de chatbot HealFavor ha demostrado ser efectivo en la provisión de respuestas precisas y relevantes a preguntas médicas comunes. Los resultados de las pruebas de usuario mostraron una alta satisfacción con la precisión de las respuestas y la facilidad de uso de la interfaz. El sistema alcanzó una precisión del 46.50\% en la clasificación de respuestas correctas, lo que indica una mejora significativa en la accesibilidad médica y la eficiencia del sistema de salud. La integración con MongoDB permitió el almacenamiento en tiempo real de historiales de chat y análisis de informes médicos, facilitando un sistema escalable y eficiente.
 
-
-\subsection{ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge} %\citep*{pr_dehghani2018copper}}
-%\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
-\subsubsection{Planteamiento del Problema y objetivo}
+\subsection{ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge \citep*{chatdoctor}} 
+\subsubsection{Planteamiento del Problema}
 	El acceso a consultas médicas precisas y oportunas sigue siendo un desafío significativo, especialmente en regiones con recursos médicos limitados. Los modelos de lenguaje grandes (LLMs) como ChatGPT han demostrado capacidades impresionantes en tareas generales de procesamiento del lenguaje natural (NLP), pero su rendimiento en el dominio médico es limitado debido a la falta de entrenamiento específico en conocimientos médicos. Esto puede resultar en respuestas incorrectas que pueden ser perjudiciales en un contexto médico. Para abordar esta limitación, se desarrolló el modelo ChatDoctor, afinado específicamente en el conocimiento del dominio médico utilizando el modelo LLaMA. Este modelo busca mejorar la precisión y relevancia de las respuestas médicas, proporcionando así un apoyo más fiable y accesible para los pacientes y profesionales de la salud.
-
-\subsubsection{Objetivos}
-	\begin{itemize}
-		\item Mejorar la precisión en las respuestas médicas.
-		\item Desarrollar una base de conocimiento externa.
-		\item Proporcionar acceso a información médica actualizada.
-		\item Evaluar el rendimiento del modelo.
-	\end{itemize}	
-
 
 \subsubsection{Fundamento Teórico}
 El desarrollo de ChatDoctor se basa en varios principios teóricos y tecnológicos clave:
@@ -494,13 +455,13 @@ El desarrollo de ChatDoctor se basa en varios principios teóricos y tecnológic
 \subsubsection{Metodología empleada por los autores}
 	La metodología adoptada para el desarrollo del sistema HHH incluye varios componentes y pasos clave para garantizar su efectividad y precisión:
 
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\begin{center}
-			\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Metodologia-7.png}
-			\caption{Metodologia. Fuente: CITAR AL FINAL }
+			\includegraphics[width=0.8\textwidth]{2/1_antecedentes/Metodologia-7.png}
+			\caption{Metodologia del proceso del modelo del ChatDoctor. Fuente: \cite{chatdoctor} }
 		\end{center}
 	\end{figure}
-
+	\vspace{-10mm}
 	\begin{enumerate}
 		
 		\item \textbf{Recolección y Preparación de Datos:}
@@ -533,35 +494,33 @@ El desarrollo de ChatDoctor se basa en varios principios teóricos y tecnológic
 \subsubsection{Resultados obtenidos}
 	El modelo ChatDoctor mostró un rendimiento superior en la provisión de respuestas médicas precisas y relevantes en comparación con ChatGPT. En pruebas cualitativas, ChatDoctor fue capaz de responder correctamente a preguntas sobre términos médicos recientes como Monkeypox y medicamentos aprobados recientemente como Daybue, gracias a su capacidad de recuperación autónoma de información. En evaluaciones cuantitativas utilizando BERTScore, ChatDoctor superó a ChatGPT en precisión, recuerdo y puntuación F1, demostrando su efectividad en proporcionar respuestas médicas fiables. Estas mejoras subrayan el potencial de ChatDoctor para asistir en consultas médicas preliminares y mejorar la accesibilidad a la información médica precisa.
 
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Resultado-7.png}
-		\caption{Resultado. Fuente: CITAR AL FINAL }
-	\end{center}
-\end{figure}
+		\begin{table}[h!]
+			\centering
+			\begin{tabular}{|c|c|c|c|}
+				\hline
+				& \textbf{ChatGPT} & \textbf{ChatDoctor} & \textbf{P-value} \\
+				\hline
+				\textbf{Precision} & 0.8374 $\pm$ 0.0188 & 0.8444 $\pm$ 0.0185 & $6.66 \times 10^{-19}$ \\
+				\hline
+				\textbf{Recall}    & 0.8445 $\pm$ 0.0164 & 0.8451 $\pm$ 0.0157 & $4.71 \times 10^{-4}$ \\
+				\hline
+				\textbf{F1 Score}   & 0.8406 $\pm$ 0.0143 & 0.8446 $\pm$ 0.0138 & $2.14 \times 10^{-111}$ \\
+				\hline
+			\end{tabular}
+			\caption{Comparacion entre el BERTScore entre ChatDoctor y Chatgpt. Fuente: \cite{chatdoctor} }
+		%	\label{tabla:metricas}
+		\end{table}
 
-
-
-\subsection{Auto Response Generation in Online Medical Chat Services} %\citep*{pr_dehghani2018copper}}
-%\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
+%\vspace{-10mm}
+\subsection{Auto Response Generation in Online Medical Chat Services \citep*{AutoResponse-2022}}
 	\subsubsection{Planteamiento del Problema y objetivo}
 	El acceso a servicios médicos de calidad y la eficiencia en la comunicación entre médicos y pacientes son desafíos significativos en el campo de la telemedicina. Con el aumento de la demanda de consultas médicas en línea debido a la pandemia de COVID-19 y otros factores, los profesionales de la salud enfrentan una carga de trabajo elevada que puede afectar la calidad de la atención médica. En respuesta a este problema, el estudio propone un mecanismo de generación de respuestas automáticas inteligentes para servicios de chat médico en línea, con el objetivo de mejorar la eficiencia de las interacciones entre médicos y pacientes y reducir los tiempos de espera. Este mecanismo se basa en algoritmos de aprendizaje automático y procesamiento de lenguaje natural para identificar y generar respuestas adecuadas a las consultas de los pacientes, mejorando así la experiencia general del usuario y la efectividad del servicio de telemedicina.
 	
-	\subsubsection{Objetivos}
-		\begin{itemize}
-			\item Mejorar la eficiencia de las interacciones médicas en línea.
-			\item Aumentar la precisión de las respuestas médicas.
-			\item Facilitar el acceso a la atención médica.
-			\item Optimizar el uso de recursos médicos.
-			\item Evaluar la efectividad del sistema.
-		\end{itemize}	
-
-
 	\subsubsection{Fundamento Teórico}
 	El desarrollo del sistema de generación de respuestas automáticas inteligentes se basa en varias tecnologías y teorías clave:
 		
 		\begin{itemize}
-			\item \textbf{Procesamiento de Lenguaje Natural (NLP):} El NLP permite que las máquinas comprendan e interpreten el lenguaje humano de manera efectiva. En este estudio, se utilizan técnicas de NLP para analizar y procesar las consultas de los pacientes, permitiendo la generación de respuestas adecuadas basadas en la comprensión del contexto y la semántica del texto.
+			\item \textbf{Procesamiento de Lenguaje Natural (NLP):} En este estudio, se utilizan técnicas de NLP para analizar y procesar las consultas de los pacientes, permitiendo la generación de respuestas adecuadas basadas en la comprensión del contexto y la semántica del texto.
 				
 			\item \textbf{	Modelos de Aprendizaje Automático: }Se emplean varios algoritmos de aprendizaje automático, incluyendo BERT, BiLSTM, y XGBoost, para entrenar el sistema con un gran conjunto de datos de conversaciones médicas. Estos modelos aprenden a identificar patrones y generar respuestas basadas en el historial de interacciones médicas.
 				
@@ -573,58 +532,51 @@ El desarrollo de ChatDoctor se basa en varios principios teóricos y tecnológic
 
 	\subsubsection{Metodología empleada por los autores}
 		La metodología empleada para desarrollar el sistema de generación de respuestas automáticas inteligentes incluye varias etapas clave:
-		
+		\begin{figure}[H]
+			\begin{center}
+				\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Metodologia-8.png}
+				\caption{Metodologia. Fuente: \cite{Medbot-2020} }
+			\end{center}
+		\end{figure}
 		\begin{enumerate}
-			
+			\vspace{-10mm}
 			\item \textbf{Recolección y Preparación de Datos:}
 				\subitem \textbf{Dataset de Conversaciones Médico-Paciente:} Se recopilaron más de 900,000 mensajes históricos entre médicos y pacientes a lo largo de 9 meses. Estos datos se anonimizaron y se prepararon para el análisis.
 				
 				\subitem \textbf{Filtrado de Datos:} Se aplicaron técnicas de limpieza de datos para corregir errores ortográficos, mal uso de puntuación y errores gramaticales, asegurando la calidad del dataset.
 			
-			\item \textbf{Creación de un Conjunto de Respuestas Prediseñadas:}
+			\item \textbf{Analisis de Grupos:}
 				\subitem \textbf{Clustering de Respuestas Médicas:} Se implementaron algoritmos de clustering para identificar las respuestas más frecuentes de los médicos y etiquetar los datos manualmente. Se crearon clusters semánticos para agrupar respuestas similares y se seleccionaron los clusters más densos para su uso en el sistema.
 			
 			\item \textbf{Desarrollo del Modelo de Filtrado (Triggering Model):}
 			
 				\subitem \textbf{Modelo de Clasificación Binaria:} Se desarrolló un modelo de clasificación binaria para filtrar los mensajes de los pacientes y determinar si requieren una respuesta automática. Este modelo se entrenó utilizando técnicas de embedding ponderado y algoritmos como BERT y BiLSTM.
-			
-			
+						
 			\item \textbf{Generación de Respuestas:}
 			
 				\subitem \textbf{Modelo de Generación de Respuestas:} Se desarrollaron varios modelos de generación de respuestas, incluyendo BERT y Seq2Seq, para sugerir las respuestas más adecuadas a las consultas de los pacientes que pasaron el filtro de triggering. Estos modelos se entrenaron utilizando el conjunto de datos preprocesado y se ajustaron para maximizar la precisión y relevancia de las respuestas generadas.
 			
 			\item \textbf{Evaluación del Sistema:}
-			
 				\subitem \textbf{Pruebas de Rendimiento:} Se realizaron pruebas exhaustivas para evaluar la precisión, el recuerdo y la puntuación F1 de las respuestas generadas. Se utilizó un enfoque de validación cruzada de 5 pliegues para asegurar la robustez del modelo y evitar el sobreajuste.
 				
 				\subitem \textbf{Comparación con Baselines:} Se comparó el rendimiento de los modelos desarrollados con enfoques basados en reglas y otros algoritmos de aprendizaje automático, demostrando la efectividad del enfoque propuesto.
 		\end{enumerate}
 			
 \subsubsection{Resultados obtenidos}
-	El sistema de generación de respuestas automáticas inteligentes demostró ser altamente efectivo en la provisión de respuestas precisas y relevantes a consultas médicas en línea. Los modelos basados en BERT superaron significativamente a otros algoritmos en términos de precisión y recuerdo, con una precisión@3 de 85.41\%. La integración de técnicas de NLP y aprendizaje automático permitió generar respuestas coherentes y útiles en tiempo real, mejorando la eficiencia de las interacciones médico-paciente. Los resultados indican que el sistema puede manejar eficazmente una gran cantidad de consultas simultáneas, reduciendo la carga de trabajo de los médicos y mejorando la satisfacción de los pacientes
+	El sistema de generación de respuestas automáticas inteligentes demostró ser altamente efectivo en la provisión de respuestas precisas y relevantes a consultas médicas en línea. Los modelos basados en BERT superaron significativamente a otros algoritmos en términos de precisión y recuerdo, con una precisión@3 de 85.41\%. La integración de técnicas de NLP y aprendizaje automático permitió generar respuestas coherentes y útiles en tiempo real, mejorando la eficiencia de las interacciones médico-paciente. Los resultados indican que el sistema puede manejar eficazmente una gran cantidad de consultas simultáneas, reduciendo la carga de trabajo de los médicos y mejorando la satisfacción de los pacientes.
 	
-		\begin{figure}[h]
+		\begin{figure}[H]
 		\begin{center}
-			\includegraphics[width=0.7\textwidth]{2/1_antecedentes/Resultado-8.jpg}
-			\caption{Resultado. Fuente: CITAR AL FINAL }
+			\includegraphics[width=0.9\textwidth]{2/1_antecedentes/Resultado-8.jpg}
+			\caption{Valores de rendimiento para la combinación de modelos de activación y generación de respuesta. Fuente: \cite{AutoResponse-2022}}
 		\end{center}
 	\end{figure}
-	
-	
-\subsection{An Approach to Medical Diagnosis Using Smart Chatbot} %\citep*{pr_dehghani2018copper}}
-%\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
+	\vspace{-10mm}
 
-\subsubsection{Planteamiento del Problema y objetivo}
+\subsection{An Approach to Medical Diagnosis Using Smart Chatbot \citep*{ApproachtoMedical}} 
+
+\subsubsection{Planteamiento del Problema}
 	El acceso a diagnósticos médicos precisos y accesibles es un desafío significativo, especialmente en áreas con recursos médicos limitados. Las visitas hospitalarias para asuntos menores a menudo se evitan, lo que puede llevar a problemas de salud más graves en el futuro. Para abordar esta situación, se propone el desarrollo de un chatbot médico llamado DiagZone, diseñado para proporcionar diagnósticos rápidos y fiables de manera remota y accesible desde cualquier lugar. Utilizando tecnologías como AWS Lex, AWS Lambda y Twilio, DiagZone integra procesamiento de lenguaje natural (NLP) para analizar las consultas de los usuarios, identificar posibles enfermedades y sugerir medidas correctivas o remitir al usuario a un médico si es necesario. Este enfoque pretende mejorar la eficiencia del diagnóstico médico, reducir la carga de trabajo de los especialistas y ofrecer una solución accesible y gratuita para el monitoreo de la salud.
-
-\subsubsection{Objetivos}
-\begin{itemize}
-	\item Proporcionar diagnósticos médicos accesibles y precisos.
-	\item Mejorar la eficiencia de la atención médica.
-	\item Fomentar el uso de tecnología en la salud.
-	\item Aumentar la accesibilidad a servicios médicos.
-\end{itemize}	
-
 
 \subsubsection{Fundamento Teórico}
 El desarrollo de DiagZone se basa en varios principios teóricos y tecnológicos clave:
@@ -638,19 +590,19 @@ El desarrollo de DiagZone se basa en varios principios teóricos y tecnológicos
 	
 	\item \textbf{Enfoque en la Seguridad de los Datos:} Se implementan estrictas medidas de seguridad para proteger la información sensible de los usuarios. Twilio proporciona un sistema de prevención de pérdida de datos y Amazon Lex implementa controles técnicos y físicos para prevenir el acceso no autorizado a la información.
 	
-	\item \textbf{Accesibilidad y Usabilidad:} El chatbot está diseñado para ser accesible desde cualquier dispositivo con conexión a internet, lo que facilita su uso en diversas situaciones y por diferentes tipos de usuarios. La interfaz intuitiva y la capacidad de interactuar en lenguaje natural mejoran la experiencia del usuario.
+	\item \textbf{Accesibilidad y Usabilidad:} El chatbot está diseñado para ser accesible desde cualquier dispositivo con conexión a internet, lo que facilita su uso en diversas situaciones y por diferentes tipos de usuarios.
 \end{itemize}
 
 \subsubsection{Metodología empleada por los autores}
 La metodología para desarrollar DiagZone incluye varias etapas clave:
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Metodologia-9.png}
-		\caption{Metodologia. Fuente: CITAR AL FINAL }
+		\caption{Metodologia. Fuente: \cite{ApproachtoMedical}}
 	\end{center}
 \end{figure}
-
+\vspace{-10mm}
 \begin{enumerate}
 	
 	\item \textbf{Recolección y Preparación de Datos:}
@@ -669,42 +621,27 @@ La metodología para desarrollar DiagZone incluye varias etapas clave:
 		
 		\subitem \textbf{Auditorías y Cumplimiento:} AWS certifica que las medidas de seguridad cumplen con los requisitos legislativos, contractuales y regulatorios necesarios para manejar datos médicos sensibles.
 	
-	
 	\item \textbf{Evaluación:}
 		
 		\subitem \textbf{Pruebas de Rendimiento:} Se realizaron pruebas exhaustivas para evaluar la precisión y relevancia de los diagnósticos generados por el chatbot. Se utilizó un enfoque de validación cruzada para asegurar la robustez del modelo.
-		
-
 		
 \end{enumerate}
 
 \subsubsection{Resultados obtenidos}
 	DiagZone demostró ser efectivo en la provisión de diagnósticos médicos precisos y relevantes. En pruebas de rendimiento, el chatbot fue capaz de analizar los síntomas proporcionados por los usuarios y sugerir posibles enfermedades junto con medidas correctivas adecuadas. El sistema también pudo referir a los usuarios a médicos en caso de que los síntomas indicaran una condición más grave. La integración con WhatsApp a través de Twilio permitió una comunicación rápida y segura, mientras que el uso de AWS Lex garantizó respuestas precisas basadas en el análisis de datos de síntomas. Los usuarios reportaron una alta satisfacción con la facilidad de uso y la rapidez de las respuestas proporcionadas por el chatbot.
 
-
-\begin{figure}[h]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Resultado-9.png}
-		\caption{Resultado. Fuente: CITAR AL FINAL }
+		\caption{Chat Between User and Bot Salli. Fuente: \cite{ApproachtoMedical} }
 	\end{center}
 \end{figure}
+\vspace{-10mm}
 
+\subsection{A Medical ChatBot \citep*{MedicalChatBot}} 
 
- \subsection{A Medical ChatBot} %\citep*{pr_dehghani2018copper}}
-%\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
-
-\subsubsection{Planteamiento del Problema y objetivo}
-	El acceso a información médica precisa y oportuna es esencial para el bienestar de las personas, pero muchas veces los usuarios no tienen el conocimiento necesario sobre tratamientos o síntomas de enfermedades específicas. Además, las visitas al hospital para problemas menores pueden ser costosas y consumir mucho tiempo, y las consultas telefónicas pueden ser complicadas y no siempre efectivas. Este documento presenta un chatbot médico que utiliza procesamiento de lenguaje natural (NLP) para proporcionar orientación sobre temas de salud de manera inmediata y accesible, sin la necesidad de visitas físicas al hospital. Este sistema no solo pretende ahorrar tiempo y reducir la carga sobre los servicios médicos, sino también ofrecer un recurso educativo para aquellos interesados en mejorar su conocimiento sobre salud y bienestar.
-
-\subsubsection{Objetivos}
-\begin{itemize}
-	\item Proporcionar acceso inmediato a información médica confiable.
-	\item Reducir la carga sobre los servicios médicos.
-	\item Mejorar la educación en salud de los usuarios.
-	\item Implementar tecnología avanzada de NLP.
-	\item Fomentar la adopción de tecnologías de salud digitales.
-\end{itemize}	
-
+\subsubsection{Planteamiento del Problema}
+	El acceso a información médica precisa y oportuna es esencial para el bienestar de las personas, pero muchas veces los usuarios no cuentan con el conocimiento necesario sobre tratamientos o síntomas de enfermedades específicas. Además, las visitas al hospital para problemas menores pueden ser costosas y consumir mucho tiempo, y las consultas telefónicas pueden ser no siempre efectivas. Se presenta un chatbot médico que utiliza procesamiento de lenguaje natural (NLP) para proporcionar orientación sobre temas de salud de manera inmediata y accesible, sin la necesidad de visitas físicas al hospital. Este sistema no solo pretende ahorrar tiempo y reducir la carga sobre los servicios médicos, sino también ofrecer un recurso educativo para aquellos interesados en mejorar su conocimiento sobre salud y bienestar. 
 
 \subsubsection{Fundamento Teórico}
 El desarrollo del chatbot médico se fundamenta en varias teorías y tecnologías clave:
@@ -712,34 +649,34 @@ El desarrollo del chatbot médico se fundamenta en varias teorías y tecnología
 \begin{itemize}
 	\item \textbf{Procesamiento de Lenguaje Natural (NLP):} El NLP permite a las máquinas comprender e interpretar el lenguaje humano, facilitando la interacción entre el usuario y el chatbot. Técnicas como el etiquetado de partes del discurso y el análisis semántico se utilizan para interpretar correctamente las consultas de los usuarios y generar respuestas adecuadas.
 	
-	\item \textbf{Algoritmo de Máquina de Vectores de Soporte (SVM):} El SVM es un potente clasificador que se utiliza para diferenciar entre diferentes clases basándose en los datos de entrenamiento. En el contexto del chatbot médico, el SVM se utiliza para predecir enfermedades basándose en los síntomas proporcionados por los usuarios.
+	\item \textbf{Algoritmo de Máquina de Vectores de Soporte (SVM):} El SVM permitira diferenciar entre diferentes clases basándose en los datos de entrenamiento. En el contexto del chatbot médico, se utiliza para predecir enfermedades. 
 	
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\begin{center}
 			\includegraphics[width=0.6\textwidth]{2/1_antecedentes/SVM-10.png}
-			\caption{Metodologia. Fuente: CITAR AL FINAL }
+			\caption{Separando hiperplano por ecuación. Fuente: \cite{MedicalChatBot} }
 		\end{center}
 	\end{figure}
-	
-	\item \textbf{Similitud de Orden de Palabras:}La similitud de orden de palabras es importante para asegurar que el significado de las oraciones se mantenga coherente. Diferentes órdenes de palabras pueden alterar significativamente el significado de una oración, por lo que este enfoque ayuda a preservar la precisión semántica.
+	\vspace{-10mm}
+	\item \textbf{Similitud de Orden de Palabras:}La similitud de orden de palabras es importante para asegurar que el significado de las oraciones se mantenga coherente. Diferentes órdenes de palabras pueden alterar significativamente el significado de una oración.
 	
 	\item \textbf{Algoritmo de Stemming de Porter:} Este algoritmo se utiliza para reducir las palabras a su raíz o forma base, eliminando sufijos comunes. Esto ayuda a normalizar los datos textuales y mejora la precisión del análisis de NLP.
 	
-	\item \textbf{Interfaz de Usuario Gráfica (GUI):} Una GUI eficiente es crucial para facilitar la interacción entre el usuario y el chatbot. La interfaz debe ser intuitiva y proporcionar respuestas en un formato fácil de entender, simulando una conversación humana.
+	\item \textbf{Interfaz de Usuario Gráfica (GUI):} Una GUI eficiente es crucial para facilitar la interacción entre el usuario y el chatbot, simulando una conversación humana.
 	
-	\item \textbf{APIs de Google:} Las APIs de Google para la conversión de voz a texto y de texto a voz se utilizan para facilitar la comunicación verbal con el chatbot. Esto permite a los usuarios interactuar con el sistema utilizando comandos de voz, mejorando la accesibilidad para personas con discapacidades visuales o dificultades para escribir.
+	\item \textbf{APIs de Google:} Las APIs de Google para la conversión de voz a texto y reversa se utilizan para facilitar la comunicación verbal con el chatbot. Permite a usuarios interactuar con el sistema utilizando comandos de voz, mejorando la accesibilidad para personas con discapacidades visuales o dificultades para escribir.
 \end{itemize}
 
 \subsubsection{Metodología empleada por los autores}
-La metodología empleada para desarrollar el chatbot médico incluye varias etapas clave:
-
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Metodologia-10.png}
-		\caption{Metodologia. Fuente: CITAR AL FINAL }
-	\end{center}
-\end{figure}
-
+	La metodología empleada incluye varias etapas clave:
+	
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Metodologia-10.png}
+			\caption{Metodologia del Medical Chatbot. Fuente: \cite{MedicalChatBot}}
+		\end{center}
+	\end{figure}
+\vspace{-10mm}
 \begin{enumerate}
 	
 	\item \textbf{Recolección y Preparación de Datos:}
@@ -748,7 +685,7 @@ La metodología empleada para desarrollar el chatbot médico incluye varias etap
 		\subitem \textbf{Filtrado de Datos:}Se aplicaron técnicas de limpieza de datos para corregir errores ortográficos y gramaticales, así como para eliminar cualquier ruido o datos irrelevantes.
 	
 	\item \textbf{Desarrollo del Modelo de Diagnóstico:}
-		\subitem \textbf{Entrenamiento del Modelo SVM:} Utilizando los datos preprocesados, se entrenó un modelo de SVM para clasificar y predecir enfermedades basándose en los síntomas proporcionados por los usuarios. Este modelo fue ajustado para maximizar la precisión y minimizar los errores de clasificación.
+		\subitem \textbf{Entrenamiento del Modelo SVM:} Se entrenó un modelo de SVM para clasificar y predecir enfermedades basándose en los síntomas proporcionados por los usuarios. Este modelo fue ajustado para maximizar la precisión y minimizar los errores de clasificación.
 		
 		\subitem \textbf{Implementación de NLP:} Se integraron técnicas de NLP para analizar y comprender las consultas de los usuarios. Esto incluye el uso de algoritmos de stemming, etiquetado de partes del discurso y análisis semántico para interpretar correctamente las entradas de texto.
 	
@@ -756,30 +693,29 @@ La metodología empleada para desarrollar el chatbot médico incluye varias etap
 	
 		\subitem \textbf{Diseño de la GUI:} Se diseñó una interfaz gráfica intuitiva y fácil de usar para facilitar la interacción entre los usuarios y el chatbot. La GUI incluye funciones para la entrada de texto y voz, así como para la visualización de respuestas.
 		
-		\subitem \textbf{Integración con APIs de Google:} Las APIs de Google para la conversión de voz a texto y de texto a voz se integraron en el sistema para permitir la comunicación verbal con el chatbot. Esto mejora la accesibilidad y facilita el uso del chatbot por una mayor variedad de usuarios.
-	
+		\subitem \textbf{Integración con APIs de Google:} Las APIs de Google para la conversión de voz a texto y de texto a voz se integraron en el sistema para permitir la comunicación verbal con el chatbot.
 	
 	\item \textbf{Implementación de la Similitud de Orden de Palabras:}
 	
-		\subitem \textbf{Cálculo de la Similitud:} Se implementaron técnicas para calcular la similitud de orden de palabras entre las consultas de los usuarios y las respuestas almacenadas en la base de datos. Esto ayuda a mantener la coherencia semántica y a generar respuestas precisas.
+		\subitem \textbf{Cálculo de la Similitud:} Se implementaron técnicas para calcular la similitud de orden de palabras entre las consultas de los usuarios y las respuestas almacenadas en la base de datos.
 	
-		\subitem \textbf{Optimización del Umbral:} Se ajustó el umbral de similitud para equilibrar la precisión y la relevancia de las respuestas generadas. Esto asegura que el chatbot proporcione respuestas útiles y coherentes en una variedad de contextos.
+		\subitem \textbf{Optimización del Umbral:} Se ajustó el umbral de similitud para equilibrar la precisión y la relevancia de las respuestas generadas, asegurando que el chatbot proporcione respuestas útiles y coherentes.
 			
 	\item \textbf{Evaluación:}
 	
-		\subitem \textbf{Pruebas de Rendimiento:} Se realizaron pruebas exhaustivas para evaluar la precisión y relevancia de los diagnósticos generados por el chatbot. Se utilizó un enfoque de validación cruzada para asegurar la robustez del modelo y evitar el sobreajuste.
-	
-		\subitem \textbf{Comparación con Métodos Existentes:} Se comparó el rendimiento del chatbot con otros métodos de diagnóstico existentes, como el clasificador K-nearest neighbors y el clasificador Naive Bayes. Los resultados mostraron que el SVM superó a estos métodos en términos de precisión y eficiencia.
+		\subitem \textbf{Pruebas de Rendimiento:} Se realizaron pruebas exhaustivas para evaluar la precisión y relevancia de los diagnósticos generados por el chatbot. Se utilizó un enfoque de validación cruzada para asegurar la robustez del modelo y evitar el sobreajuste. 
 	
 \end{enumerate}
 
 \subsubsection{Resultados obtenidos}
 
-	El chatbot médico demostró ser efectivo en la provisión de diagnósticos médicos precisos y relevantes. En las pruebas de rendimiento, el modelo de SVM logró una precisión del 94\%, superando significativamente a los métodos K-nearest neighbors y Naive Bayes. El uso de técnicas de NLP permitió al chatbot interpretar correctamente las consultas de los usuarios y generar respuestas útiles basadas en los datos de síntomas y enfermedades. La integración con APIs de Google facilitó la comunicación verbal con el chatbot, mejorando la accesibilidad para una mayor variedad de usuarios. Los usuarios reportaron una alta satisfacción con la facilidad de uso y la precisión de los diagnósticos proporcionados por el chatbot.
+	El chatbot médico demostró ser efectivo en la provisión de diagnósticos médicos precisos y relevantes. En las pruebas de rendimiento, el modelo de SVM logró una precisión del 94\%, superando significativamente a los métodos K-nearest neighbors y Naive Bayes. El uso de técnicas de NLP permitió al chatbot interpretar correctamente las consultas de los usuarios y generar respuestas útiles basadas en los datos de síntomas y enfermedades. La integración con APIs de Google facilitó la comunicación verbal con el chatbot, mejorando la accesibilidad para una mayor variedad de usuarios. Los usuarios expresaron una gran satisfacción con la facilidad y precisión del diagnóstico proporcionado por el chatbot.
 	
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Resultado2-10.png}
-		\caption{Resultado. Fuente: CITAR AL FINAL }
-	\end{center}
-\end{figure}
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.6\textwidth]{2/1_antecedentes/Resultado2-10.png}
+			\caption{Algoritmo de Exactitud despues de la comparación de diferentes métodos. Fuente: \cite{MedicalChatBot} }
+		\end{center}
+	\end{figure}
+	
+\vspace{-10mm}
