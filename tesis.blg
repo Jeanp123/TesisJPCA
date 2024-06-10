@@ -1,20 +1,20 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'tesis.blg'
-[227] biber-MSWIN64:340> INFO - === 
-[302] Biber.pm:419> INFO - Reading 'tesis.bcf'
-[615] Biber.pm:979> INFO - Found 22 citekeys in bib section 0
-[660] Biber.pm:4419> INFO - Processing section 0
-[685] Biber.pm:4610> INFO - Looking for bibtex file 'biblio/references.bib' for section 0
-[793] bibtex.pm:1713> INFO - LaTeX decoding ...
-[923] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio/references.bib'
-[1354] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1355] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1355] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[1466] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1466] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1466] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[1533] bbl.pm:660> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
-[1615] bbl.pm:763> INFO - Output to tesis.bbl
-[1616] Biber.pm:131> WARN - legacy month field 'aug' in entry 'pr_Tudor_Car2020-jg' is not an integer - this will probably not sort properly.
-[1616] Biber.pm:131> WARN - I didn't find a database entry for 'Norman' (section 0)
-[1616] Biber.pm:133> INFO - WARNINGS: 2
+[233] biber-MSWIN64:340> INFO - === 
+[308] Biber.pm:419> INFO - Reading 'tesis.bcf'
+[618] Biber.pm:979> INFO - Found 22 citekeys in bib section 0
+[664] Biber.pm:4419> INFO - Processing section 0
+[690] Biber.pm:4610> INFO - Looking for bibtex file 'biblio/references.bib' for section 0
+[803] bibtex.pm:1713> INFO - LaTeX decoding ...
+[935] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio/references.bib'
+[1383] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1383] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1383] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[1507] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1507] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1507] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[1581] bbl.pm:660> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
+[1664] bbl.pm:763> INFO - Output to tesis.bbl
+[1665] Biber.pm:131> WARN - legacy month field 'aug' in entry 'pr_Tudor_Car2020-jg' is not an integer - this will probably not sort properly.
+[1665] Biber.pm:131> WARN - I didn't find a database entry for 'Norman' (section 0)
+[1665] Biber.pm:133> INFO - WARNINGS: 2

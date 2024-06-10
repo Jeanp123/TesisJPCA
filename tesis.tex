@@ -6,6 +6,7 @@
 \usepackage{comment} 
 \usepackage{setspace}
 \usepackage{float} 
+\usepackage{longtable} % Para tablas largas que se dividen en varias páginas
 %%%%paquete para usar citas de diferentes formatos
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%add al indice
@@ -49,12 +50,12 @@ pdfauthor={autor nombres}]{hyperref}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{fancyhdr} % for better header layout
 \newcommand{\changefont}{%
-	\fontsize{9pt}{1.5pt}\selectfont
+	\fontsize{7pt}{1.5pt}\selectfont
 }
 \pagestyle{fancy}
 \fancyhf{} %% delete default configuration of page
 %%\setlength\headheight{15pt}
-\fancyhead[L]{\changefont Implementación de un Chatbot Médico en Áreas Rurales}
+\fancyhead[L]{\changefont Implementación de un Chatbot Médico Pediatrico para la Prestación de Servicios en Áreas Rurales}
 \fancyhead[R]{\changefont \leftmark}
 %%\fancyfoot[L]{\leftmark}
 \fancyfoot[R]{\thepage}
@@ -153,7 +154,7 @@ pdfauthor={autor nombres}]{hyperref}
 		UNIVERSIDAD ESAN \vspace*{1ex} \\
 		FACULTAD DE INGENIERÍA \vspace*{1ex} \\
 		INGENIERÍA DE TECNOLOGÍAS DE INFORMACIÓN Y SISTEMAS\vspace*{8ex} \\
-		\textbf{Implementación de un Chatbot Médico para la Prestación de Servicios en Áreas Rurales}
+		\textbf{Implementación de un Chatbot Médico Pediatrico para la Prestación de Servicios en Áreas Rurales}
 		\vspace*{8ex}\\	
 		Trabajo de investigación para el curso de Trabajo de Tesis I 
 		\vspace*{8ex} \\	
@@ -196,15 +197,18 @@ pdfauthor={autor nombres}]{hyperref}
 
 \include{1/planteamiento}
 \include{2/marco}
+
+\begin{comment}
 \include{3/metodologia}
 \include{4/desarrollo}
 \include{5/resultados}
 \include{6/conclusion}
+\end{comment}
 %%Anexos
 \appendix
-\renewcommand{\appendixname}{Anexos}
-\renewcommand{\appendixtocname}{Anexos}
-\renewcommand{\appendixpagename}{Anexos}
+\renewcommand{\appendixname}{Anexos}\vspace{-5mm}
+\renewcommand{\appendixtocname}{Anexos}\vspace{-15mm}
+\renewcommand{\appendixpagename}{Anexos}\vspace{-51mm}
 \clearpage
 \addappheadtotoc
 \appendixpage

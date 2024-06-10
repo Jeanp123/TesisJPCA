@@ -258,7 +258,10 @@
       \field{year}{2020}
       \field{pages}{870\bibrangedash 875}
       \range{pages}{6}
-      \verb{doi}
+      \verb{urlraw}
+      \verb 10.1109/ICCES48766.2020.9137944
+      \endverb
+      \verb{url}
       \verb 10.1109/ICCES48766.2020.9137944
       \endverb
       \keyw{Telehealth;chatbot;natural language processing;medbot;natural language understanding;conversational technology;digital health;voice user interface;conversational user interface;conversational agent;human-computer interaction}
@@ -350,7 +353,10 @@
       \field{year}{2018}
       \field{pages}{41\bibrangedash 45}
       \range{pages}{5}
-      \verb{doi}
+      \verb{urlraw}
+      \verb 10.14445/22312803/IJCTT-V60P106
+      \endverb
+      \verb{url}
       \verb 10.14445/22312803/IJCTT-V60P106
       \endverb
     \endentry
@@ -722,6 +728,12 @@
       \verb{eprint}
       \verb 2303.14070
       \endverb
+      \verb{urlraw}
+      \verb 10.7759/cureus.40895
+      \endverb
+      \verb{url}
+      \verb 10.7759/cureus.40895
+      \endverb
     \endentry
     \entry{OECD_World_Bank_2020}{book}{}
       \name{author}{2}{}{%
@@ -790,6 +802,12 @@
       \field{year}{2023}
       \verb{eprint}
       \verb 2311.10697
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.48550/arXiv.2311.10697
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.48550/arXiv.2311.10697
       \endverb
     \endentry
     \entry{Pricewaterhouse}{misc}{}
@@ -1014,7 +1032,10 @@
       \field{year}{2020}
       \field{pages}{1\bibrangedash 4}
       \range{pages}{4}
-      \verb{doi}
+      \verb{urlraw}
+      \verb 10.1109/DATABIA50434.2020.9190281
+      \endverb
+      \verb{url}
       \verb 10.1109/DATABIA50434.2020.9190281
       \endverb
       \keyw{Medical services;Prototypes;Medical diagnostic imaging;Data science;Business;Systems architecture;Artificial intelligence;Data;Healthcare;Chatbot;Classification;Sequence Prediction}
@@ -1143,6 +1164,12 @@
       \field{year}{2022}
       \field{pages}{43\bibrangedash 56}
       \range{pages}{14}
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-981-19-3089-8_5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-981-19-3089-8_5
+      \endverb
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
@@ -1385,7 +1412,10 @@
       \field{year}{2020}
       \field{pages}{870\bibrangedash 875}
       \range{pages}{6}
-      \verb{doi}
+      \verb{urlraw}
+      \verb 10.1109/ICCES48766.2020.9137944
+      \endverb
+      \verb{url}
       \verb 10.1109/ICCES48766.2020.9137944
       \endverb
       \keyw{Telehealth;chatbot;natural language processing;medbot;natural language understanding;conversational technology;digital health;voice user interface;conversational user interface;conversational agent;human-computer interaction}
@@ -1477,7 +1507,10 @@
       \field{year}{2018}
       \field{pages}{41\bibrangedash 45}
       \range{pages}{5}
-      \verb{doi}
+      \verb{urlraw}
+      \verb 10.14445/22312803/IJCTT-V60P106
+      \endverb
+      \verb{url}
       \verb 10.14445/22312803/IJCTT-V60P106
       \endverb
     \endentry
@@ -1849,6 +1882,12 @@
       \verb{eprint}
       \verb 2303.14070
       \endverb
+      \verb{urlraw}
+      \verb 10.7759/cureus.40895
+      \endverb
+      \verb{url}
+      \verb 10.7759/cureus.40895
+      \endverb
     \endentry
     \entry{OECD_World_Bank_2020}{book}{}
       \name{author}{2}{}{%
@@ -1917,6 +1956,12 @@
       \field{year}{2023}
       \verb{eprint}
       \verb 2311.10697
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.48550/arXiv.2311.10697
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.48550/arXiv.2311.10697
       \endverb
     \endentry
     \entry{Pricewaterhouse}{misc}{}
@@ -2141,7 +2186,10 @@
       \field{year}{2020}
       \field{pages}{1\bibrangedash 4}
       \range{pages}{4}
-      \verb{doi}
+      \verb{urlraw}
+      \verb 10.1109/DATABIA50434.2020.9190281
+      \endverb
+      \verb{url}
       \verb 10.1109/DATABIA50434.2020.9190281
       \endverb
       \keyw{Medical services;Prototypes;Medical diagnostic imaging;Data science;Business;Systems architecture;Artificial intelligence;Data;Healthcare;Chatbot;Classification;Sequence Prediction}
@@ -2270,6 +2318,12 @@
       \field{year}{2022}
       \field{pages}{43\bibrangedash 56}
       \range{pages}{14}
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-981-19-3089-8_5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-981-19-3089-8_5
+      \endverb
     \endentry
   \enddatalist
   \missing{Norman}
