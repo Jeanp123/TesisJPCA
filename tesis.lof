@@ -3,33 +3,29 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Total de poblacion rural y urbana. Fuente: \blx@tocontentsinit {0}\cite {gl_inei}}}{13}{figure.caption.4}%
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Porcentaje de acceso a atencion medica. Fuente: \blx@tocontentsinit {0}\cite {gl_inei}}}{13}{figure.caption.5}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Escalabilidad y Disponibilidad. Fuente: \blx@tocontentsinit {0}\cite {HealthChatBots-2022}}}{22}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Interfaz de Usuario y Procesamiento NLP. Fuente: \blx@tocontentsinit {0}\cite {HealthChatBots-2022} }}{22}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Resultado. Fuente: \blx@tocontentsinit {0}\cite {HealthChatBots-2022} }}{23}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Metodologia. Fuente: \blx@tocontentsinit {0}\cite {Medbot-2020} }}{21}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Escalabilidad y Disponibilidad. Fuente: \blx@tocontentsinit {0}\cite {HealthChatBots-2022}}}{22}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Interfaz de Usuario y Procesamiento NLP. Fuente: \blx@tocontentsinit {0}\cite {HealthChatBots-2022} }}{22}{figure.caption.8}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Resultado. Fuente: \blx@tocontentsinit {0}\cite {HealthChatBots-2022} }}{23}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Resultado. Fuente: \blx@tocontentsinit {0}\cite {HealthChatBots-2022} }}{24}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Metodologia. Fuente: \blx@tocontentsinit {0}\cite {peftmedaware_2023}}}{26}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Metodologia. Fuente: \blx@tocontentsinit {0}\cite {Medbot-2020} }}{29}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Resultado. Fuente: \blx@tocontentsinit {0}\cite {IntelligentChatbot_2020}}}{31}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Resultado. Fuente: \blx@tocontentsinit {0}\cite {IntelligentChatbot_2020}}}{34}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Metodologia. Fuente: \blx@tocontentsinit {0}\cite {HHHAnOnlineMedical} }}{35}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Resultado. Fuente: \blx@tocontentsinit {0}\cite {HHHAnOnlineMedical} }}{37}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Resultado. Fuente: \blx@tocontentsinit {0}\cite {HHHAnOnlineMedical}}}{37}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Metodologia. Fuente: \blx@tocontentsinit {0}\cite {chatdoctor} }}{42}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Resultado. Fuente: \blx@tocontentsinit {0}\cite {chatdoctor} }}{43}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Resultado. Fuente: \blx@tocontentsinit {0}\cite {AutoResponse-2022}}}{57}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Metodologia. Fuente: \blx@tocontentsinit {0}\cite {ApproachtoMedical}}}{58}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Resultado. Fuente: \blx@tocontentsinit {0}\cite {ApproachtoMedical} }}{58}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Metodologia. Fuente: \blx@tocontentsinit {0}\cite {MedicalChatBot} }}{58}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Metodologia. Fuente: \blx@tocontentsinit {0}\cite {MedicalChatBot} }}{59}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Resultado. Fuente: \blx@tocontentsinit {0}\cite {MedicalChatBot} }}{59}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Resultado. Fuente: \blx@tocontentsinit {0}\cite {HealthChatBots-2022} }}{23}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Resultado. Fuente: \blx@tocontentsinit {0}\cite {HealthChatBots-2022} }}{24}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Metodologia. Fuente: \blx@tocontentsinit {0}\cite {peftmedaware_2023}}}{26}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Metodologia. Fuente: \blx@tocontentsinit {0}\cite {Medbot-2020} }}{29}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Resultado. Fuente: \blx@tocontentsinit {0}\cite {IntelligentChatbot_2020}}}{30}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Metodologia. Fuente: \blx@tocontentsinit {0}\cite {Medbot-2020} }}{31}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Metodologia. Fuente: \blx@tocontentsinit {0}\cite {HHHAnOnlineMedical} }}{34}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Metodologia. Fuente: \blx@tocontentsinit {0}\cite {Medbot-2020} }}{38}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Metodologia del proceso del modelo del ChatDoctor. Fuente: \blx@tocontentsinit {0}\cite {chatdoctor} }}{41}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Metodologia. Fuente: \blx@tocontentsinit {0}\cite {Medbot-2020} }}{44}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Valores de rendimiento para la combinación de modelos de activación y generación de respuesta. Fuente: \blx@tocontentsinit {0}\cite {AutoResponse-2022}}}{46}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Metodologia. Fuente: \blx@tocontentsinit {0}\cite {ApproachtoMedical}}}{48}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Chat Between User and Bot Salli. Fuente: \blx@tocontentsinit {0}\cite {ApproachtoMedical} }}{49}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Separando hiperplano por ecuación. Fuente: \blx@tocontentsinit {0}\cite {MedicalChatBot} }}{50}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Metodologia del Medical Chatbot. Fuente: \blx@tocontentsinit {0}\cite {MedicalChatBot}}}{51}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Algoritmo de Exactitud despues de la comparación de diferentes métodos. Fuente: \blx@tocontentsinit {0}\cite {MedicalChatBot} }}{53}{figure.caption.29}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Prueba de Figura}}{61}{figure.caption.26}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Metodologia, Fuente: Propio}}{61}{figure.caption.32}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Árbol del problema. Fuente: Elaboración propia}}{73}{figure.caption.33}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Árbol del problema. Fuente: Elaboración propia}}{67}{figure.caption.38}%
 \addvspace {10\p@ }

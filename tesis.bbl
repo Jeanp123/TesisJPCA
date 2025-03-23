@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{apa/apasortcite//global/global}
-    \entry{pr_Abd-Alrazaq2020-ct}{article}{}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{pr_Abd-Alrazaq2020-ct}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=1904a77ed0ac78b57c3693fffbddbd45}{%
            family={Abd-Alrazaq},
@@ -66,10 +66,12 @@
       }
       \strng{namehash}{6e98b873328f90355716bc1e168324a0}
       \strng{fullhash}{6b745d7469ad350ac4ea5301b95eb271}
+      \strng{fullhashraw}{6b745d7469ad350ac4ea5301b95eb271}
       \strng{bibnamehash}{6b745d7469ad350ac4ea5301b95eb271}
       \strng{authorbibnamehash}{6b745d7469ad350ac4ea5301b95eb271}
       \strng{authornamehash}{6e98b873328f90355716bc1e168324a0}
       \strng{authorfullhash}{6b745d7469ad350ac4ea5301b95eb271}
+      \strng{authorfullhashraw}{6b745d7469ad350ac4ea5301b95eb271}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -87,7 +89,7 @@
       \range{pages}{-1}
       \keyw{chatbots; conversational agents; evaluation; health care; metrics}
     \endentry
-    \entry{IntelligentChatbot_2020}{article}{}
+    \entry{IntelligentChatbot_2020}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=12078839eaa9203dbb9951c28c1c56cd}{%
            family={Arulmangainayaki},
@@ -121,10 +123,12 @@
       }
       \strng{namehash}{4db69efd06a2a9ee370a222f70ea6c32}
       \strng{fullhash}{385887f1164a3044caa64cad7ba80476}
+      \strng{fullhashraw}{385887f1164a3044caa64cad7ba80476}
       \strng{bibnamehash}{385887f1164a3044caa64cad7ba80476}
       \strng{authorbibnamehash}{385887f1164a3044caa64cad7ba80476}
       \strng{authornamehash}{4db69efd06a2a9ee370a222f70ea6c32}
       \strng{authorfullhash}{385887f1164a3044caa64cad7ba80476}
+      \strng{authorfullhashraw}{385887f1164a3044caa64cad7ba80476}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -150,7 +154,7 @@
       \verb http://dx.doi.org/10.35940/ijitee.F3083.049620
       \endverb
     \endentry
-    \entry{HHHAnOnlineMedical}{article}{}
+    \entry{HHHAnOnlineMedical}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=16d066d49760eb33f91e8ea9a0a52479}{%
            family={Bao},
@@ -176,10 +180,12 @@
       }
       \strng{namehash}{c57c65edd3bbbb8236516dacb4fb90fe}
       \strng{fullhash}{2f67c56970d026b14d973ca5c5e29cd6}
+      \strng{fullhashraw}{2f67c56970d026b14d973ca5c5e29cd6}
       \strng{bibnamehash}{2f67c56970d026b14d973ca5c5e29cd6}
       \strng{authorbibnamehash}{2f67c56970d026b14d973ca5c5e29cd6}
       \strng{authornamehash}{c57c65edd3bbbb8236516dacb4fb90fe}
       \strng{authorfullhash}{2f67c56970d026b14d973ca5c5e29cd6}
+      \strng{authorfullhashraw}{2f67c56970d026b14d973ca5c5e29cd6}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -201,7 +207,7 @@
       \verb http://dx.doi.org/10.1145/3373017.3373049
       \endverb
     \endentry
-    \entry{Medbot-2020}{article}{}
+    \entry{Medbot-2020}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=a7610720bf713b4e043d8e76cb238242}{%
            family={Bharti},
@@ -242,10 +248,12 @@
       }
       \strng{namehash}{2a94169e355a5fca9f904307d5e95212}
       \strng{fullhash}{7da414d7e425877340e3902ebec8e793}
+      \strng{fullhashraw}{7da414d7e425877340e3902ebec8e793}
       \strng{bibnamehash}{7da414d7e425877340e3902ebec8e793}
       \strng{authorbibnamehash}{7da414d7e425877340e3902ebec8e793}
       \strng{authornamehash}{2a94169e355a5fca9f904307d5e95212}
       \strng{authorfullhash}{7da414d7e425877340e3902ebec8e793}
+      \strng{authorfullhashraw}{7da414d7e425877340e3902ebec8e793}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -266,7 +274,7 @@
       \endverb
       \keyw{Telehealth;chatbot;natural language processing;medbot;natural language understanding;conversational technology;digital health;voice user interface;conversational user interface;conversational agent;human-computer interaction}
     \endentry
-    \entry{Braveman254}{article}{}
+    \entry{Braveman254}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e16acc413aca59a2a3bfd43b23b5aa8a}{%
            family={Braveman},
@@ -286,10 +294,12 @@
       }
       \strng{namehash}{53f808244cfda5ef69730fb664f4aaef}
       \strng{fullhash}{53f808244cfda5ef69730fb664f4aaef}
+      \strng{fullhashraw}{53f808244cfda5ef69730fb664f4aaef}
       \strng{bibnamehash}{53f808244cfda5ef69730fb664f4aaef}
       \strng{authorbibnamehash}{53f808244cfda5ef69730fb664f4aaef}
       \strng{authornamehash}{53f808244cfda5ef69730fb664f4aaef}
       \strng{authorfullhash}{53f808244cfda5ef69730fb664f4aaef}
+      \strng{authorfullhashraw}{53f808244cfda5ef69730fb664f4aaef}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -318,7 +328,7 @@
       \verb https://jech.bmj.com/content/57/4/254
       \endverb
     \endentry
-    \entry{MedicalChatBot}{article}{}
+    \entry{MedicalChatBot}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=89a9b005c7959aefeb0a4892637ba860}{%
            family={Dharwadkar},
@@ -335,10 +345,12 @@
       }
       \strng{namehash}{414aed5d36354635107708e8870865b3}
       \strng{fullhash}{414aed5d36354635107708e8870865b3}
+      \strng{fullhashraw}{414aed5d36354635107708e8870865b3}
       \strng{bibnamehash}{414aed5d36354635107708e8870865b3}
       \strng{authorbibnamehash}{414aed5d36354635107708e8870865b3}
       \strng{authornamehash}{414aed5d36354635107708e8870865b3}
       \strng{authorfullhash}{414aed5d36354635107708e8870865b3}
+      \strng{authorfullhashraw}{414aed5d36354635107708e8870865b3}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -360,7 +372,7 @@
       \verb 10.14445/22312803/IJCTT-V60P106
       \endverb
     \endentry
-    \entry{pr_Diez-Canseco2015-uh}{article}{}
+    \entry{pr_Diez-Canseco2015-uh}{article}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=24dd166f7f8f818ceb0fc7b229fa435b}{%
            family={Diez-Canseco},
@@ -419,10 +431,12 @@
       }
       \strng{namehash}{a258aeeb59bff0b44f9d5ca8a1970c84}
       \strng{fullhash}{f1a8f7d936dde95483769771fc3fa08e}
+      \strng{fullhashraw}{f1a8f7d936dde95483769771fc3fa08e}
       \strng{bibnamehash}{f1a8f7d936dde95483769771fc3fa08e}
       \strng{authorbibnamehash}{f1a8f7d936dde95483769771fc3fa08e}
       \strng{authornamehash}{a258aeeb59bff0b44f9d5ca8a1970c84}
       \strng{authorfullhash}{f1a8f7d936dde95483769771fc3fa08e}
+      \strng{authorfullhashraw}{f1a8f7d936dde95483769771fc3fa08e}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -440,7 +454,7 @@
       \range{pages}{-1}
       \keyw{Latin America; cross-cultural comparison; developing countries; health literacy; hypertension; mHealth; prehypertension; preventive medicine; text messages; validation studies}
     \endentry
-    \entry{Epstein100}{article}{}
+    \entry{Epstein100}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=76897de54a644ad91c87b7c99b403d38}{%
            family={Epstein},
@@ -460,10 +474,12 @@
       }
       \strng{namehash}{5014c3da4ecd32238b3aafd67f8955fc}
       \strng{fullhash}{5014c3da4ecd32238b3aafd67f8955fc}
+      \strng{fullhashraw}{5014c3da4ecd32238b3aafd67f8955fc}
       \strng{bibnamehash}{5014c3da4ecd32238b3aafd67f8955fc}
       \strng{authorbibnamehash}{5014c3da4ecd32238b3aafd67f8955fc}
       \strng{authornamehash}{5014c3da4ecd32238b3aafd67f8955fc}
       \strng{authorfullhash}{5014c3da4ecd32238b3aafd67f8955fc}
+      \strng{authorfullhashraw}{5014c3da4ecd32238b3aafd67f8955fc}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -492,7 +508,7 @@
       \verb https://www.annfammed.org/content/9/2/100
       \endverb
     \endentry
-    \entry{gl_inei}{misc}{}
+    \entry{gl_inei}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4d7bf55010a4bce3e53bfcf6615cccdb}{%
            family={{INEI}},
@@ -500,10 +516,12 @@
       }
       \strng{namehash}{4d7bf55010a4bce3e53bfcf6615cccdb}
       \strng{fullhash}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{fullhashraw}{4d7bf55010a4bce3e53bfcf6615cccdb}
       \strng{bibnamehash}{4d7bf55010a4bce3e53bfcf6615cccdb}
       \strng{authorbibnamehash}{4d7bf55010a4bce3e53bfcf6615cccdb}
       \strng{authornamehash}{4d7bf55010a4bce3e53bfcf6615cccdb}
       \strng{authorfullhash}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{authorfullhashraw}{4d7bf55010a4bce3e53bfcf6615cccdb}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
@@ -520,7 +538,7 @@
       \verb https://www.inei.gob.pe/estadisticas/indice-tematico/health/
       \endverb
     \endentry
-    \entry{AutoResponse-2022}{article}{}
+    \entry{AutoResponse-2022}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=31c237ea98a16d0eb40778a431bef793}{%
            family={Jahanshahi},
@@ -543,10 +561,12 @@
       }
       \strng{namehash}{4e541c8e09837e3b78ef0a7c51308e7d}
       \strng{fullhash}{689cc684ebcefb13913bb9284ed1f148}
+      \strng{fullhashraw}{689cc684ebcefb13913bb9284ed1f148}
       \strng{bibnamehash}{689cc684ebcefb13913bb9284ed1f148}
       \strng{authorbibnamehash}{689cc684ebcefb13913bb9284ed1f148}
       \strng{authornamehash}{4e541c8e09837e3b78ef0a7c51308e7d}
       \strng{authorfullhash}{689cc684ebcefb13913bb9284ed1f148}
+      \strng{authorfullhashraw}{689cc684ebcefb13913bb9284ed1f148}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}
@@ -572,7 +592,7 @@
       \verb https://pubmed.ncbi.nlm.nih.gov/35854816/
       \endverb
     \endentry
-    \entry{pr_Laranjo2018-gb}{article}{}
+    \entry{pr_Laranjo2018-gb}{article}{}{}
       \name{author}{11}{}{%
         {{un=0,uniquepart=base,hash=84f47956d576e162b30b2745daa10c5d}{%
            family={Laranjo},
@@ -649,10 +669,12 @@
       }
       \strng{namehash}{764dd47486567ff19b60711a4690c4d7}
       \strng{fullhash}{ba2c1316c2f2be4679257e9e2e00b92e}
+      \strng{fullhashraw}{ba2c1316c2f2be4679257e9e2e00b92e}
       \strng{bibnamehash}{ba2c1316c2f2be4679257e9e2e00b92e}
       \strng{authorbibnamehash}{ba2c1316c2f2be4679257e9e2e00b92e}
       \strng{authornamehash}{764dd47486567ff19b60711a4690c4d7}
       \strng{authorfullhash}{ba2c1316c2f2be4679257e9e2e00b92e}
+      \strng{authorfullhashraw}{ba2c1316c2f2be4679257e9e2e00b92e}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -669,7 +691,58 @@
       \field{pages}{1248\bibrangedash 1258}
       \range{pages}{11}
     \endentry
-    \entry{chatdoctor}{article}{}
+    \entry{pr_Levesque2013-vb}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c0b23064a94a9b1632a9887f1f31aba7}{%
+           family={Levesque},
+           familyi={L\bibinitperiod},
+           given={Jean-Frederic},
+           giveni={J\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=303df599f05ff56e2c4085ae76365f1f}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Mark\bibnamedelima F},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0cec7984926ca16509ad53a6bfa062f}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Grant},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{fb8ff5a7dad19a0b25c10840d77872fe}
+      \strng{fullhash}{71406c448077b15bdecfde39fcaaefb2}
+      \strng{fullhashraw}{71406c448077b15bdecfde39fcaaefb2}
+      \strng{bibnamehash}{71406c448077b15bdecfde39fcaaefb2}
+      \strng{authorbibnamehash}{71406c448077b15bdecfde39fcaaefb2}
+      \strng{authornamehash}{fb8ff5a7dad19a0b25c10840d77872fe}
+      \strng{authorfullhash}{71406c448077b15bdecfde39fcaaefb2}
+      \strng{authorfullhashraw}{71406c448077b15bdecfde39fcaaefb2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Int. J. Equity Health}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Patient-centred access to health care: conceptualising access at the interface of health systems and populations}
+      \field{volume}{12}
+      \field{year}{2013}
+      \field{pages}{18}
+      \range{pages}{1}
+    \endentry
+    \entry{chatdoctor}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=b1ad8ccb5b8002e42640ee6c238b98cd}{%
            family={Li},
@@ -710,10 +783,12 @@
       }
       \strng{namehash}{e5dd93406b08b6d87ca04cc33fdda21e}
       \strng{fullhash}{25cb62899fdea4827f124043fe504857}
+      \strng{fullhashraw}{25cb62899fdea4827f124043fe504857}
       \strng{bibnamehash}{25cb62899fdea4827f124043fe504857}
       \strng{authorbibnamehash}{25cb62899fdea4827f124043fe504857}
       \strng{authornamehash}{e5dd93406b08b6d87ca04cc33fdda21e}
       \strng{authorfullhash}{25cb62899fdea4827f124043fe504857}
+      \strng{authorfullhashraw}{25cb62899fdea4827f124043fe504857}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -735,7 +810,47 @@
       \verb 10.7759/cureus.40895
       \endverb
     \endentry
-    \entry{OECD_World_Bank_2020}{book}{}
+    \entry{Norman1986}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6c785cec3b28d28af91696b6a6db5b78}{%
+           family={Norman},
+           familyi={N\bibinitperiod},
+           given={Donald\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd4f8fd416f5966aac8c292122929798}{%
+           family={Draper},
+           familyi={D\bibinitperiod},
+           given={Stephen\bibnamedelima W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {L. Erlbaum Associates Inc.}%
+      }
+      \strng{namehash}{3d5ba1f39af52f25bb9f3451346670ea}
+      \strng{fullhash}{3d5ba1f39af52f25bb9f3451346670ea}
+      \strng{fullhashraw}{3d5ba1f39af52f25bb9f3451346670ea}
+      \strng{bibnamehash}{3d5ba1f39af52f25bb9f3451346670ea}
+      \strng{authorbibnamehash}{3d5ba1f39af52f25bb9f3451346670ea}
+      \strng{authornamehash}{3d5ba1f39af52f25bb9f3451346670ea}
+      \strng{authorfullhash}{3d5ba1f39af52f25bb9f3451346670ea}
+      \strng{authorfullhashraw}{3d5ba1f39af52f25bb9f3451346670ea}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0898597811}
+      \field{title}{User Centered System Design; New Perspectives on Human-Computer Interaction}
+      \field{year}{1986}
+    \endentry
+    \entry{OECD_World_Bank_2020}{book}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=bdbed435a416a918aa494017fda4c7fb}{%
            family={OECD},
@@ -749,10 +864,12 @@
       }
       \strng{namehash}{58eaa0b865f5fb3f19015593efb45889}
       \strng{fullhash}{58eaa0b865f5fb3f19015593efb45889}
+      \strng{fullhashraw}{58eaa0b865f5fb3f19015593efb45889}
       \strng{bibnamehash}{58eaa0b865f5fb3f19015593efb45889}
       \strng{authorbibnamehash}{58eaa0b865f5fb3f19015593efb45889}
       \strng{authornamehash}{58eaa0b865f5fb3f19015593efb45889}
       \strng{authorfullhash}{58eaa0b865f5fb3f19015593efb45889}
+      \strng{authorfullhashraw}{58eaa0b865f5fb3f19015593efb45889}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
@@ -774,7 +891,7 @@
       \verb https://www.oecd-ilibrary.org/content/publication/740f9640-es
       \endverb
     \endentry
-    \entry{peftmedaware_2023}{article}{}
+    \entry{peftmedaware_2023}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=893179020d3ab121ee21596461162794}{%
            family={Pandya},
@@ -785,10 +902,12 @@
       }
       \strng{namehash}{893179020d3ab121ee21596461162794}
       \strng{fullhash}{893179020d3ab121ee21596461162794}
+      \strng{fullhashraw}{893179020d3ab121ee21596461162794}
       \strng{bibnamehash}{893179020d3ab121ee21596461162794}
       \strng{authorbibnamehash}{893179020d3ab121ee21596461162794}
       \strng{authornamehash}{893179020d3ab121ee21596461162794}
       \strng{authorfullhash}{893179020d3ab121ee21596461162794}
+      \strng{authorfullhashraw}{893179020d3ab121ee21596461162794}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -810,7 +929,7 @@
       \verb https://doi.org/10.48550/arXiv.2311.10697
       \endverb
     \endentry
-    \entry{Pricewaterhouse}{misc}{}
+    \entry{Pricewaterhouse}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d7f5e77e10731341efd719f33587e13e}{%
            family={(PwC)},
@@ -821,10 +940,12 @@
       }
       \strng{namehash}{d7f5e77e10731341efd719f33587e13e}
       \strng{fullhash}{d7f5e77e10731341efd719f33587e13e}
+      \strng{fullhashraw}{d7f5e77e10731341efd719f33587e13e}
       \strng{bibnamehash}{d7f5e77e10731341efd719f33587e13e}
       \strng{authorbibnamehash}{d7f5e77e10731341efd719f33587e13e}
       \strng{authornamehash}{d7f5e77e10731341efd719f33587e13e}
       \strng{authorfullhash}{d7f5e77e10731341efd719f33587e13e}
+      \strng{authorfullhashraw}{d7f5e77e10731341efd719f33587e13e}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -842,7 +963,7 @@
       \verb https://contentenginellc.com/2017/05/15/bot-me-a-revolutionary-partnership-how-ai-is-pushing-man-and-machine-closer-together/
       \endverb
     \endentry
-    \entry{rogers2003}{book}{}
+    \entry{rogers2003}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=669b8abed5f7af06c8e59f33187e24ba}{%
            family={Rogers},
@@ -859,10 +980,12 @@
       }
       \strng{namehash}{669b8abed5f7af06c8e59f33187e24ba}
       \strng{fullhash}{669b8abed5f7af06c8e59f33187e24ba}
+      \strng{fullhashraw}{669b8abed5f7af06c8e59f33187e24ba}
       \strng{bibnamehash}{669b8abed5f7af06c8e59f33187e24ba}
       \strng{authorbibnamehash}{669b8abed5f7af06c8e59f33187e24ba}
       \strng{authornamehash}{669b8abed5f7af06c8e59f33187e24ba}
       \strng{authorfullhash}{669b8abed5f7af06c8e59f33187e24ba}
+      \strng{authorfullhashraw}{669b8abed5f7af06c8e59f33187e24ba}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -873,7 +996,7 @@
       \field{title}{Diffusion of Innovations}
       \field{year}{2003}
     \endentry
-    \entry{pr_Tudor_Car2020-jg}{article}{}
+    \entry{pr_Tudor_Car2020-jg}{article}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=99d51731b6db8533ddf344313c11f6c2}{%
            family={Tudor\bibnamedelima Car},
@@ -926,10 +1049,12 @@
       }
       \strng{namehash}{6059745f48afbcf88df2db865790b110}
       \strng{fullhash}{c7549e38887ad50c15ae12bc71e58993}
+      \strng{fullhashraw}{c7549e38887ad50c15ae12bc71e58993}
       \strng{bibnamehash}{c7549e38887ad50c15ae12bc71e58993}
       \strng{authorbibnamehash}{c7549e38887ad50c15ae12bc71e58993}
       \strng{authornamehash}{6059745f48afbcf88df2db865790b110}
       \strng{authorfullhash}{c7549e38887ad50c15ae12bc71e58993}
+      \strng{authorfullhashraw}{c7549e38887ad50c15ae12bc71e58993}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
@@ -947,7 +1072,7 @@
       \range{pages}{-1}
       \keyw{artificial intelligence; chatbots; conversational agents; health care; machine learning; mobile phone; scoping review}
     \endentry
-    \entry{Unicef}{misc}{}
+    \entry{Unicef}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d13783605ea066c4fee77fe8192de83a}{%
            family={UNICEF},
@@ -955,10 +1080,12 @@
       }
       \strng{namehash}{d13783605ea066c4fee77fe8192de83a}
       \strng{fullhash}{d13783605ea066c4fee77fe8192de83a}
+      \strng{fullhashraw}{d13783605ea066c4fee77fe8192de83a}
       \strng{bibnamehash}{d13783605ea066c4fee77fe8192de83a}
       \strng{authorbibnamehash}{d13783605ea066c4fee77fe8192de83a}
       \strng{authornamehash}{d13783605ea066c4fee77fe8192de83a}
       \strng{authorfullhash}{d13783605ea066c4fee77fe8192de83a}
+      \strng{authorfullhashraw}{d13783605ea066c4fee77fe8192de83a}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
       \field{extradatescope}{labelyear}
@@ -975,7 +1102,7 @@
       \verb https://www.unicef.org/es/comunicados-prensa/mortalidad-infantil-alcanzo-minimo-mundial-historico-2022
       \endverb
     \endentry
-    \entry{HealFavor}{article}{}
+    \entry{HealFavor}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=92bfe3a6c8ff90eaa9660d7cbf55fa33}{%
            family={Ur\bibnamedelima Rahman\bibnamedelima Khilji},
@@ -1016,10 +1143,12 @@
       }
       \strng{namehash}{56ee509f8527bee226913712591c1fb6}
       \strng{fullhash}{55af368b714427e42cd291c069e874a7}
+      \strng{fullhashraw}{55af368b714427e42cd291c069e874a7}
       \strng{bibnamehash}{55af368b714427e42cd291c069e874a7}
       \strng{authorbibnamehash}{55af368b714427e42cd291c069e874a7}
       \strng{authornamehash}{56ee509f8527bee226913712591c1fb6}
       \strng{authorfullhash}{55af368b714427e42cd291c069e874a7}
+      \strng{authorfullhashraw}{55af368b714427e42cd291c069e874a7}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
       \field{extradatescope}{labelyear}
@@ -1040,7 +1169,7 @@
       \endverb
       \keyw{Medical services;Prototypes;Medical diagnostic imaging;Data science;Business;Systems architecture;Artificial intelligence;Data;Healthcare;Chatbot;Classification;Sequence Prediction}
     \endentry
-    \entry{HealthChatBots-2022}{article}{}
+    \entry{HealthChatBots-2022}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=832a7964a93df3ccd535442cf52e99c4}{%
            family={Vasileiou},
@@ -1057,10 +1186,12 @@
       }
       \strng{namehash}{a9472f149959fc4d447c7df1158749ae}
       \strng{fullhash}{a9472f149959fc4d447c7df1158749ae}
+      \strng{fullhashraw}{a9472f149959fc4d447c7df1158749ae}
       \strng{bibnamehash}{a9472f149959fc4d447c7df1158749ae}
       \strng{authorbibnamehash}{a9472f149959fc4d447c7df1158749ae}
       \strng{authornamehash}{a9472f149959fc4d447c7df1158749ae}
       \strng{authorfullhash}{a9472f149959fc4d447c7df1158749ae}
+      \strng{authorfullhashraw}{a9472f149959fc4d447c7df1158749ae}
       \field{sortinit}{V}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{extradatescope}{labelyear}
@@ -1085,7 +1216,48 @@
       \verb https://doi.org/10.1155/2022/4876512
       \endverb
     \endentry
-    \entry{ApproachtoMedical}{article}{}
+    \entry{pr_Venkatesh2003-po}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2d13968b2a79770fe559936cf5673c09}{%
+           family={{Venkatesh}},
+           familyi={V\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=42e61a05e6bb14a96ab16cff054a1943}{%
+           family={{Morris}},
+           familyi={M\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=8f2d58e32d065296e0ddcff5f6509a9f}{%
+           family={{Davis}},
+           familyi={D\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=8f2d58e32d065296e0ddcff5f6509a9f}{%
+           family={{Davis}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{df79c0a3d47c4921f55ac472974832e2}
+      \strng{fullhash}{83984be03a626cff5a442d4cb27c0af6}
+      \strng{fullhashraw}{83984be03a626cff5a442d4cb27c0af6}
+      \strng{bibnamehash}{83984be03a626cff5a442d4cb27c0af6}
+      \strng{authorbibnamehash}{83984be03a626cff5a442d4cb27c0af6}
+      \strng{authornamehash}{df79c0a3d47c4921f55ac472974832e2}
+      \strng{authorfullhash}{83984be03a626cff5a442d4cb27c0af6}
+      \strng{authorfullhashraw}{83984be03a626cff5a442d4cb27c0af6}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MIS Q}
+      \field{number}{3}
+      \field{title}{User acceptance of information technology: Toward a unified view}
+      \field{volume}{27}
+      \field{year}{2003}
+      \field{pages}{425}
+      \range{pages}{1}
+    \endentry
+    \entry{ApproachtoMedical}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=6c2af7a6e0e7710668b7fcaf556514d1}{%
            family={Verma},
@@ -1144,13 +1316,16 @@
       }
       \strng{namehash}{409b2627951393ec31d8eaaeb76d3b99}
       \strng{fullhash}{829700abd5580449ce15a6efe7c6fc2c}
+      \strng{fullhashraw}{829700abd5580449ce15a6efe7c6fc2c}
       \strng{bibnamehash}{829700abd5580449ce15a6efe7c6fc2c}
       \strng{authorbibnamehash}{829700abd5580449ce15a6efe7c6fc2c}
       \strng{authornamehash}{409b2627951393ec31d8eaaeb76d3b99}
       \strng{authorfullhash}{829700abd5580449ce15a6efe7c6fc2c}
+      \strng{authorfullhashraw}{829700abd5580449ce15a6efe7c6fc2c}
       \strng{editorbibnamehash}{be46ca3c75452a5f84f350625498a96e}
       \strng{editornamehash}{e838e67e0728a13a19dbff167ae010d2}
       \strng{editorfullhash}{be46ca3c75452a5f84f350625498a96e}
+      \strng{editorfullhashraw}{be46ca3c75452a5f84f350625498a96e}
       \field{sortinit}{V}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{extradatescope}{labelyear}
@@ -1172,8 +1347,8 @@
       \endverb
     \endentry
   \enddatalist
-  \datalist[entry]{apa/global//global/global}
-    \entry{pr_Abd-Alrazaq2020-ct}{article}{}
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{pr_Abd-Alrazaq2020-ct}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=1904a77ed0ac78b57c3693fffbddbd45}{%
            family={Abd-Alrazaq},
@@ -1220,10 +1395,12 @@
       }
       \strng{namehash}{6e98b873328f90355716bc1e168324a0}
       \strng{fullhash}{6b745d7469ad350ac4ea5301b95eb271}
+      \strng{fullhashraw}{6b745d7469ad350ac4ea5301b95eb271}
       \strng{bibnamehash}{6b745d7469ad350ac4ea5301b95eb271}
       \strng{authorbibnamehash}{6b745d7469ad350ac4ea5301b95eb271}
       \strng{authornamehash}{6e98b873328f90355716bc1e168324a0}
       \strng{authorfullhash}{6b745d7469ad350ac4ea5301b95eb271}
+      \strng{authorfullhashraw}{6b745d7469ad350ac4ea5301b95eb271}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -1241,7 +1418,7 @@
       \range{pages}{-1}
       \keyw{chatbots; conversational agents; evaluation; health care; metrics}
     \endentry
-    \entry{IntelligentChatbot_2020}{article}{}
+    \entry{IntelligentChatbot_2020}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=12078839eaa9203dbb9951c28c1c56cd}{%
            family={Arulmangainayaki},
@@ -1275,10 +1452,12 @@
       }
       \strng{namehash}{4db69efd06a2a9ee370a222f70ea6c32}
       \strng{fullhash}{385887f1164a3044caa64cad7ba80476}
+      \strng{fullhashraw}{385887f1164a3044caa64cad7ba80476}
       \strng{bibnamehash}{385887f1164a3044caa64cad7ba80476}
       \strng{authorbibnamehash}{385887f1164a3044caa64cad7ba80476}
       \strng{authornamehash}{4db69efd06a2a9ee370a222f70ea6c32}
       \strng{authorfullhash}{385887f1164a3044caa64cad7ba80476}
+      \strng{authorfullhashraw}{385887f1164a3044caa64cad7ba80476}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -1304,7 +1483,7 @@
       \verb http://dx.doi.org/10.35940/ijitee.F3083.049620
       \endverb
     \endentry
-    \entry{HHHAnOnlineMedical}{article}{}
+    \entry{HHHAnOnlineMedical}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=16d066d49760eb33f91e8ea9a0a52479}{%
            family={Bao},
@@ -1330,10 +1509,12 @@
       }
       \strng{namehash}{c57c65edd3bbbb8236516dacb4fb90fe}
       \strng{fullhash}{2f67c56970d026b14d973ca5c5e29cd6}
+      \strng{fullhashraw}{2f67c56970d026b14d973ca5c5e29cd6}
       \strng{bibnamehash}{2f67c56970d026b14d973ca5c5e29cd6}
       \strng{authorbibnamehash}{2f67c56970d026b14d973ca5c5e29cd6}
       \strng{authornamehash}{c57c65edd3bbbb8236516dacb4fb90fe}
       \strng{authorfullhash}{2f67c56970d026b14d973ca5c5e29cd6}
+      \strng{authorfullhashraw}{2f67c56970d026b14d973ca5c5e29cd6}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -1355,7 +1536,7 @@
       \verb http://dx.doi.org/10.1145/3373017.3373049
       \endverb
     \endentry
-    \entry{Medbot-2020}{article}{}
+    \entry{Medbot-2020}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=a7610720bf713b4e043d8e76cb238242}{%
            family={Bharti},
@@ -1396,10 +1577,12 @@
       }
       \strng{namehash}{2a94169e355a5fca9f904307d5e95212}
       \strng{fullhash}{7da414d7e425877340e3902ebec8e793}
+      \strng{fullhashraw}{7da414d7e425877340e3902ebec8e793}
       \strng{bibnamehash}{7da414d7e425877340e3902ebec8e793}
       \strng{authorbibnamehash}{7da414d7e425877340e3902ebec8e793}
       \strng{authornamehash}{2a94169e355a5fca9f904307d5e95212}
       \strng{authorfullhash}{7da414d7e425877340e3902ebec8e793}
+      \strng{authorfullhashraw}{7da414d7e425877340e3902ebec8e793}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -1420,7 +1603,7 @@
       \endverb
       \keyw{Telehealth;chatbot;natural language processing;medbot;natural language understanding;conversational technology;digital health;voice user interface;conversational user interface;conversational agent;human-computer interaction}
     \endentry
-    \entry{Braveman254}{article}{}
+    \entry{Braveman254}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e16acc413aca59a2a3bfd43b23b5aa8a}{%
            family={Braveman},
@@ -1440,10 +1623,12 @@
       }
       \strng{namehash}{53f808244cfda5ef69730fb664f4aaef}
       \strng{fullhash}{53f808244cfda5ef69730fb664f4aaef}
+      \strng{fullhashraw}{53f808244cfda5ef69730fb664f4aaef}
       \strng{bibnamehash}{53f808244cfda5ef69730fb664f4aaef}
       \strng{authorbibnamehash}{53f808244cfda5ef69730fb664f4aaef}
       \strng{authornamehash}{53f808244cfda5ef69730fb664f4aaef}
       \strng{authorfullhash}{53f808244cfda5ef69730fb664f4aaef}
+      \strng{authorfullhashraw}{53f808244cfda5ef69730fb664f4aaef}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -1472,7 +1657,7 @@
       \verb https://jech.bmj.com/content/57/4/254
       \endverb
     \endentry
-    \entry{MedicalChatBot}{article}{}
+    \entry{MedicalChatBot}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=89a9b005c7959aefeb0a4892637ba860}{%
            family={Dharwadkar},
@@ -1489,10 +1674,12 @@
       }
       \strng{namehash}{414aed5d36354635107708e8870865b3}
       \strng{fullhash}{414aed5d36354635107708e8870865b3}
+      \strng{fullhashraw}{414aed5d36354635107708e8870865b3}
       \strng{bibnamehash}{414aed5d36354635107708e8870865b3}
       \strng{authorbibnamehash}{414aed5d36354635107708e8870865b3}
       \strng{authornamehash}{414aed5d36354635107708e8870865b3}
       \strng{authorfullhash}{414aed5d36354635107708e8870865b3}
+      \strng{authorfullhashraw}{414aed5d36354635107708e8870865b3}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -1514,7 +1701,7 @@
       \verb 10.14445/22312803/IJCTT-V60P106
       \endverb
     \endentry
-    \entry{pr_Diez-Canseco2015-uh}{article}{}
+    \entry{pr_Diez-Canseco2015-uh}{article}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=24dd166f7f8f818ceb0fc7b229fa435b}{%
            family={Diez-Canseco},
@@ -1573,10 +1760,12 @@
       }
       \strng{namehash}{a258aeeb59bff0b44f9d5ca8a1970c84}
       \strng{fullhash}{f1a8f7d936dde95483769771fc3fa08e}
+      \strng{fullhashraw}{f1a8f7d936dde95483769771fc3fa08e}
       \strng{bibnamehash}{f1a8f7d936dde95483769771fc3fa08e}
       \strng{authorbibnamehash}{f1a8f7d936dde95483769771fc3fa08e}
       \strng{authornamehash}{a258aeeb59bff0b44f9d5ca8a1970c84}
       \strng{authorfullhash}{f1a8f7d936dde95483769771fc3fa08e}
+      \strng{authorfullhashraw}{f1a8f7d936dde95483769771fc3fa08e}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -1594,7 +1783,7 @@
       \range{pages}{-1}
       \keyw{Latin America; cross-cultural comparison; developing countries; health literacy; hypertension; mHealth; prehypertension; preventive medicine; text messages; validation studies}
     \endentry
-    \entry{Epstein100}{article}{}
+    \entry{Epstein100}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=76897de54a644ad91c87b7c99b403d38}{%
            family={Epstein},
@@ -1614,10 +1803,12 @@
       }
       \strng{namehash}{5014c3da4ecd32238b3aafd67f8955fc}
       \strng{fullhash}{5014c3da4ecd32238b3aafd67f8955fc}
+      \strng{fullhashraw}{5014c3da4ecd32238b3aafd67f8955fc}
       \strng{bibnamehash}{5014c3da4ecd32238b3aafd67f8955fc}
       \strng{authorbibnamehash}{5014c3da4ecd32238b3aafd67f8955fc}
       \strng{authornamehash}{5014c3da4ecd32238b3aafd67f8955fc}
       \strng{authorfullhash}{5014c3da4ecd32238b3aafd67f8955fc}
+      \strng{authorfullhashraw}{5014c3da4ecd32238b3aafd67f8955fc}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -1646,7 +1837,7 @@
       \verb https://www.annfammed.org/content/9/2/100
       \endverb
     \endentry
-    \entry{gl_inei}{misc}{}
+    \entry{gl_inei}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4d7bf55010a4bce3e53bfcf6615cccdb}{%
            family={{INEI}},
@@ -1654,10 +1845,12 @@
       }
       \strng{namehash}{4d7bf55010a4bce3e53bfcf6615cccdb}
       \strng{fullhash}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{fullhashraw}{4d7bf55010a4bce3e53bfcf6615cccdb}
       \strng{bibnamehash}{4d7bf55010a4bce3e53bfcf6615cccdb}
       \strng{authorbibnamehash}{4d7bf55010a4bce3e53bfcf6615cccdb}
       \strng{authornamehash}{4d7bf55010a4bce3e53bfcf6615cccdb}
       \strng{authorfullhash}{4d7bf55010a4bce3e53bfcf6615cccdb}
+      \strng{authorfullhashraw}{4d7bf55010a4bce3e53bfcf6615cccdb}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
@@ -1674,7 +1867,7 @@
       \verb https://www.inei.gob.pe/estadisticas/indice-tematico/health/
       \endverb
     \endentry
-    \entry{AutoResponse-2022}{article}{}
+    \entry{AutoResponse-2022}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=31c237ea98a16d0eb40778a431bef793}{%
            family={Jahanshahi},
@@ -1697,10 +1890,12 @@
       }
       \strng{namehash}{4e541c8e09837e3b78ef0a7c51308e7d}
       \strng{fullhash}{689cc684ebcefb13913bb9284ed1f148}
+      \strng{fullhashraw}{689cc684ebcefb13913bb9284ed1f148}
       \strng{bibnamehash}{689cc684ebcefb13913bb9284ed1f148}
       \strng{authorbibnamehash}{689cc684ebcefb13913bb9284ed1f148}
       \strng{authornamehash}{4e541c8e09837e3b78ef0a7c51308e7d}
       \strng{authorfullhash}{689cc684ebcefb13913bb9284ed1f148}
+      \strng{authorfullhashraw}{689cc684ebcefb13913bb9284ed1f148}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}
@@ -1726,7 +1921,7 @@
       \verb https://pubmed.ncbi.nlm.nih.gov/35854816/
       \endverb
     \endentry
-    \entry{pr_Laranjo2018-gb}{article}{}
+    \entry{pr_Laranjo2018-gb}{article}{}{}
       \name{author}{11}{}{%
         {{un=0,uniquepart=base,hash=84f47956d576e162b30b2745daa10c5d}{%
            family={Laranjo},
@@ -1803,10 +1998,12 @@
       }
       \strng{namehash}{764dd47486567ff19b60711a4690c4d7}
       \strng{fullhash}{ba2c1316c2f2be4679257e9e2e00b92e}
+      \strng{fullhashraw}{ba2c1316c2f2be4679257e9e2e00b92e}
       \strng{bibnamehash}{ba2c1316c2f2be4679257e9e2e00b92e}
       \strng{authorbibnamehash}{ba2c1316c2f2be4679257e9e2e00b92e}
       \strng{authornamehash}{764dd47486567ff19b60711a4690c4d7}
       \strng{authorfullhash}{ba2c1316c2f2be4679257e9e2e00b92e}
+      \strng{authorfullhashraw}{ba2c1316c2f2be4679257e9e2e00b92e}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -1823,7 +2020,58 @@
       \field{pages}{1248\bibrangedash 1258}
       \range{pages}{11}
     \endentry
-    \entry{chatdoctor}{article}{}
+    \entry{pr_Levesque2013-vb}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c0b23064a94a9b1632a9887f1f31aba7}{%
+           family={Levesque},
+           familyi={L\bibinitperiod},
+           given={Jean-Frederic},
+           giveni={J\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=303df599f05ff56e2c4085ae76365f1f}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Mark\bibnamedelima F},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0cec7984926ca16509ad53a6bfa062f}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Grant},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{fb8ff5a7dad19a0b25c10840d77872fe}
+      \strng{fullhash}{71406c448077b15bdecfde39fcaaefb2}
+      \strng{fullhashraw}{71406c448077b15bdecfde39fcaaefb2}
+      \strng{bibnamehash}{71406c448077b15bdecfde39fcaaefb2}
+      \strng{authorbibnamehash}{71406c448077b15bdecfde39fcaaefb2}
+      \strng{authornamehash}{fb8ff5a7dad19a0b25c10840d77872fe}
+      \strng{authorfullhash}{71406c448077b15bdecfde39fcaaefb2}
+      \strng{authorfullhashraw}{71406c448077b15bdecfde39fcaaefb2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Int. J. Equity Health}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Patient-centred access to health care: conceptualising access at the interface of health systems and populations}
+      \field{volume}{12}
+      \field{year}{2013}
+      \field{pages}{18}
+      \range{pages}{1}
+    \endentry
+    \entry{chatdoctor}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=b1ad8ccb5b8002e42640ee6c238b98cd}{%
            family={Li},
@@ -1864,10 +2112,12 @@
       }
       \strng{namehash}{e5dd93406b08b6d87ca04cc33fdda21e}
       \strng{fullhash}{25cb62899fdea4827f124043fe504857}
+      \strng{fullhashraw}{25cb62899fdea4827f124043fe504857}
       \strng{bibnamehash}{25cb62899fdea4827f124043fe504857}
       \strng{authorbibnamehash}{25cb62899fdea4827f124043fe504857}
       \strng{authornamehash}{e5dd93406b08b6d87ca04cc33fdda21e}
       \strng{authorfullhash}{25cb62899fdea4827f124043fe504857}
+      \strng{authorfullhashraw}{25cb62899fdea4827f124043fe504857}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -1889,7 +2139,47 @@
       \verb 10.7759/cureus.40895
       \endverb
     \endentry
-    \entry{OECD_World_Bank_2020}{book}{}
+    \entry{Norman1986}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6c785cec3b28d28af91696b6a6db5b78}{%
+           family={Norman},
+           familyi={N\bibinitperiod},
+           given={Donald\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd4f8fd416f5966aac8c292122929798}{%
+           family={Draper},
+           familyi={D\bibinitperiod},
+           given={Stephen\bibnamedelima W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {L. Erlbaum Associates Inc.}%
+      }
+      \strng{namehash}{3d5ba1f39af52f25bb9f3451346670ea}
+      \strng{fullhash}{3d5ba1f39af52f25bb9f3451346670ea}
+      \strng{fullhashraw}{3d5ba1f39af52f25bb9f3451346670ea}
+      \strng{bibnamehash}{3d5ba1f39af52f25bb9f3451346670ea}
+      \strng{authorbibnamehash}{3d5ba1f39af52f25bb9f3451346670ea}
+      \strng{authornamehash}{3d5ba1f39af52f25bb9f3451346670ea}
+      \strng{authorfullhash}{3d5ba1f39af52f25bb9f3451346670ea}
+      \strng{authorfullhashraw}{3d5ba1f39af52f25bb9f3451346670ea}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0898597811}
+      \field{title}{User Centered System Design; New Perspectives on Human-Computer Interaction}
+      \field{year}{1986}
+    \endentry
+    \entry{OECD_World_Bank_2020}{book}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=bdbed435a416a918aa494017fda4c7fb}{%
            family={OECD},
@@ -1903,10 +2193,12 @@
       }
       \strng{namehash}{58eaa0b865f5fb3f19015593efb45889}
       \strng{fullhash}{58eaa0b865f5fb3f19015593efb45889}
+      \strng{fullhashraw}{58eaa0b865f5fb3f19015593efb45889}
       \strng{bibnamehash}{58eaa0b865f5fb3f19015593efb45889}
       \strng{authorbibnamehash}{58eaa0b865f5fb3f19015593efb45889}
       \strng{authornamehash}{58eaa0b865f5fb3f19015593efb45889}
       \strng{authorfullhash}{58eaa0b865f5fb3f19015593efb45889}
+      \strng{authorfullhashraw}{58eaa0b865f5fb3f19015593efb45889}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
@@ -1928,7 +2220,7 @@
       \verb https://www.oecd-ilibrary.org/content/publication/740f9640-es
       \endverb
     \endentry
-    \entry{peftmedaware_2023}{article}{}
+    \entry{peftmedaware_2023}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=893179020d3ab121ee21596461162794}{%
            family={Pandya},
@@ -1939,10 +2231,12 @@
       }
       \strng{namehash}{893179020d3ab121ee21596461162794}
       \strng{fullhash}{893179020d3ab121ee21596461162794}
+      \strng{fullhashraw}{893179020d3ab121ee21596461162794}
       \strng{bibnamehash}{893179020d3ab121ee21596461162794}
       \strng{authorbibnamehash}{893179020d3ab121ee21596461162794}
       \strng{authornamehash}{893179020d3ab121ee21596461162794}
       \strng{authorfullhash}{893179020d3ab121ee21596461162794}
+      \strng{authorfullhashraw}{893179020d3ab121ee21596461162794}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -1964,7 +2258,7 @@
       \verb https://doi.org/10.48550/arXiv.2311.10697
       \endverb
     \endentry
-    \entry{Pricewaterhouse}{misc}{}
+    \entry{Pricewaterhouse}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d7f5e77e10731341efd719f33587e13e}{%
            family={(PwC)},
@@ -1975,10 +2269,12 @@
       }
       \strng{namehash}{d7f5e77e10731341efd719f33587e13e}
       \strng{fullhash}{d7f5e77e10731341efd719f33587e13e}
+      \strng{fullhashraw}{d7f5e77e10731341efd719f33587e13e}
       \strng{bibnamehash}{d7f5e77e10731341efd719f33587e13e}
       \strng{authorbibnamehash}{d7f5e77e10731341efd719f33587e13e}
       \strng{authornamehash}{d7f5e77e10731341efd719f33587e13e}
       \strng{authorfullhash}{d7f5e77e10731341efd719f33587e13e}
+      \strng{authorfullhashraw}{d7f5e77e10731341efd719f33587e13e}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -1996,7 +2292,7 @@
       \verb https://contentenginellc.com/2017/05/15/bot-me-a-revolutionary-partnership-how-ai-is-pushing-man-and-machine-closer-together/
       \endverb
     \endentry
-    \entry{rogers2003}{book}{}
+    \entry{rogers2003}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=669b8abed5f7af06c8e59f33187e24ba}{%
            family={Rogers},
@@ -2013,10 +2309,12 @@
       }
       \strng{namehash}{669b8abed5f7af06c8e59f33187e24ba}
       \strng{fullhash}{669b8abed5f7af06c8e59f33187e24ba}
+      \strng{fullhashraw}{669b8abed5f7af06c8e59f33187e24ba}
       \strng{bibnamehash}{669b8abed5f7af06c8e59f33187e24ba}
       \strng{authorbibnamehash}{669b8abed5f7af06c8e59f33187e24ba}
       \strng{authornamehash}{669b8abed5f7af06c8e59f33187e24ba}
       \strng{authorfullhash}{669b8abed5f7af06c8e59f33187e24ba}
+      \strng{authorfullhashraw}{669b8abed5f7af06c8e59f33187e24ba}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -2027,7 +2325,7 @@
       \field{title}{Diffusion of Innovations}
       \field{year}{2003}
     \endentry
-    \entry{pr_Tudor_Car2020-jg}{article}{}
+    \entry{pr_Tudor_Car2020-jg}{article}{}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=99d51731b6db8533ddf344313c11f6c2}{%
            family={Tudor\bibnamedelima Car},
@@ -2080,10 +2378,12 @@
       }
       \strng{namehash}{6059745f48afbcf88df2db865790b110}
       \strng{fullhash}{c7549e38887ad50c15ae12bc71e58993}
+      \strng{fullhashraw}{c7549e38887ad50c15ae12bc71e58993}
       \strng{bibnamehash}{c7549e38887ad50c15ae12bc71e58993}
       \strng{authorbibnamehash}{c7549e38887ad50c15ae12bc71e58993}
       \strng{authornamehash}{6059745f48afbcf88df2db865790b110}
       \strng{authorfullhash}{c7549e38887ad50c15ae12bc71e58993}
+      \strng{authorfullhashraw}{c7549e38887ad50c15ae12bc71e58993}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
@@ -2101,7 +2401,7 @@
       \range{pages}{-1}
       \keyw{artificial intelligence; chatbots; conversational agents; health care; machine learning; mobile phone; scoping review}
     \endentry
-    \entry{Unicef}{misc}{}
+    \entry{Unicef}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d13783605ea066c4fee77fe8192de83a}{%
            family={UNICEF},
@@ -2109,10 +2409,12 @@
       }
       \strng{namehash}{d13783605ea066c4fee77fe8192de83a}
       \strng{fullhash}{d13783605ea066c4fee77fe8192de83a}
+      \strng{fullhashraw}{d13783605ea066c4fee77fe8192de83a}
       \strng{bibnamehash}{d13783605ea066c4fee77fe8192de83a}
       \strng{authorbibnamehash}{d13783605ea066c4fee77fe8192de83a}
       \strng{authornamehash}{d13783605ea066c4fee77fe8192de83a}
       \strng{authorfullhash}{d13783605ea066c4fee77fe8192de83a}
+      \strng{authorfullhashraw}{d13783605ea066c4fee77fe8192de83a}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
       \field{extradatescope}{labelyear}
@@ -2129,7 +2431,7 @@
       \verb https://www.unicef.org/es/comunicados-prensa/mortalidad-infantil-alcanzo-minimo-mundial-historico-2022
       \endverb
     \endentry
-    \entry{HealFavor}{article}{}
+    \entry{HealFavor}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=92bfe3a6c8ff90eaa9660d7cbf55fa33}{%
            family={Ur\bibnamedelima Rahman\bibnamedelima Khilji},
@@ -2170,10 +2472,12 @@
       }
       \strng{namehash}{56ee509f8527bee226913712591c1fb6}
       \strng{fullhash}{55af368b714427e42cd291c069e874a7}
+      \strng{fullhashraw}{55af368b714427e42cd291c069e874a7}
       \strng{bibnamehash}{55af368b714427e42cd291c069e874a7}
       \strng{authorbibnamehash}{55af368b714427e42cd291c069e874a7}
       \strng{authornamehash}{56ee509f8527bee226913712591c1fb6}
       \strng{authorfullhash}{55af368b714427e42cd291c069e874a7}
+      \strng{authorfullhashraw}{55af368b714427e42cd291c069e874a7}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
       \field{extradatescope}{labelyear}
@@ -2194,7 +2498,7 @@
       \endverb
       \keyw{Medical services;Prototypes;Medical diagnostic imaging;Data science;Business;Systems architecture;Artificial intelligence;Data;Healthcare;Chatbot;Classification;Sequence Prediction}
     \endentry
-    \entry{HealthChatBots-2022}{article}{}
+    \entry{HealthChatBots-2022}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=832a7964a93df3ccd535442cf52e99c4}{%
            family={Vasileiou},
@@ -2211,10 +2515,12 @@
       }
       \strng{namehash}{a9472f149959fc4d447c7df1158749ae}
       \strng{fullhash}{a9472f149959fc4d447c7df1158749ae}
+      \strng{fullhashraw}{a9472f149959fc4d447c7df1158749ae}
       \strng{bibnamehash}{a9472f149959fc4d447c7df1158749ae}
       \strng{authorbibnamehash}{a9472f149959fc4d447c7df1158749ae}
       \strng{authornamehash}{a9472f149959fc4d447c7df1158749ae}
       \strng{authorfullhash}{a9472f149959fc4d447c7df1158749ae}
+      \strng{authorfullhashraw}{a9472f149959fc4d447c7df1158749ae}
       \field{sortinit}{V}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{extradatescope}{labelyear}
@@ -2239,7 +2545,48 @@
       \verb https://doi.org/10.1155/2022/4876512
       \endverb
     \endentry
-    \entry{ApproachtoMedical}{article}{}
+    \entry{pr_Venkatesh2003-po}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2d13968b2a79770fe559936cf5673c09}{%
+           family={{Venkatesh}},
+           familyi={V\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=42e61a05e6bb14a96ab16cff054a1943}{%
+           family={{Morris}},
+           familyi={M\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=8f2d58e32d065296e0ddcff5f6509a9f}{%
+           family={{Davis}},
+           familyi={D\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=8f2d58e32d065296e0ddcff5f6509a9f}{%
+           family={{Davis}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{df79c0a3d47c4921f55ac472974832e2}
+      \strng{fullhash}{83984be03a626cff5a442d4cb27c0af6}
+      \strng{fullhashraw}{83984be03a626cff5a442d4cb27c0af6}
+      \strng{bibnamehash}{83984be03a626cff5a442d4cb27c0af6}
+      \strng{authorbibnamehash}{83984be03a626cff5a442d4cb27c0af6}
+      \strng{authornamehash}{df79c0a3d47c4921f55ac472974832e2}
+      \strng{authorfullhash}{83984be03a626cff5a442d4cb27c0af6}
+      \strng{authorfullhashraw}{83984be03a626cff5a442d4cb27c0af6}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MIS Q}
+      \field{number}{3}
+      \field{title}{User acceptance of information technology: Toward a unified view}
+      \field{volume}{27}
+      \field{year}{2003}
+      \field{pages}{425}
+      \range{pages}{1}
+    \endentry
+    \entry{ApproachtoMedical}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=6c2af7a6e0e7710668b7fcaf556514d1}{%
            family={Verma},
@@ -2298,13 +2645,16 @@
       }
       \strng{namehash}{409b2627951393ec31d8eaaeb76d3b99}
       \strng{fullhash}{829700abd5580449ce15a6efe7c6fc2c}
+      \strng{fullhashraw}{829700abd5580449ce15a6efe7c6fc2c}
       \strng{bibnamehash}{829700abd5580449ce15a6efe7c6fc2c}
       \strng{authorbibnamehash}{829700abd5580449ce15a6efe7c6fc2c}
       \strng{authornamehash}{409b2627951393ec31d8eaaeb76d3b99}
       \strng{authorfullhash}{829700abd5580449ce15a6efe7c6fc2c}
+      \strng{authorfullhashraw}{829700abd5580449ce15a6efe7c6fc2c}
       \strng{editorbibnamehash}{be46ca3c75452a5f84f350625498a96e}
       \strng{editornamehash}{e838e67e0728a13a19dbff167ae010d2}
       \strng{editorfullhash}{be46ca3c75452a5f84f350625498a96e}
+      \strng{editorfullhashraw}{be46ca3c75452a5f84f350625498a96e}
       \field{sortinit}{V}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{extradatescope}{labelyear}
@@ -2326,7 +2676,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Norman}
 \endrefsection
 \endinput
 
